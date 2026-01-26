@@ -3,6 +3,7 @@
 import { useState, useEffect, useMemo } from 'react'
 import { Match } from '@/lib/types'
 import { format, parseISO } from 'date-fns'
+import { zonedTimeToUtc, utcToZonedTime } from 'date-fns-tz'
 
 // チーム名の日本語表記マッピング
 const TEAM_NAMES_JA: Record<string, string> = {
@@ -429,13 +430,23 @@ export default function Home() {
               <tbody>
                 {filteredMatches.map((match) => {
                   try {
-                    const matchDate = parseISO(match.kickoff_datetime_jst)
-                    if (isNaN(matchDate.getTime())) {
+                    // データは既にJST時間をUTC形式の文字列で保存されているため、
+                    // 文字列から日時部分を抽出してJST時間として解釈
+                    const utcDate = parseISO(match.kickoff_datetime_jst)
+                    if (isNaN(utcDate.getTime())) {
                       console.error('Invalid date:', match.kickoff_datetime_jst)
                       return null
                     }
-                    const day = format(matchDate, 'dd')
-                    const time = format(matchDate, 'HH:mm')
+                    // UTC形式の文字列から日時部分を抽出（例: "2026-01-28T04:30:00.000Z" → "2026-01-28T04:30:00"）
+                    const dateTimeStr = match.kickoff_datetime_jst.replace(/\.\d{3}Z?$/, '').replace('Z', '')
+                    // これをJST時間として解釈
+                    const jstDate = parseISO(dateTimeStr)
+                    if (isNaN(jstDate.getTime())) {
+                      console.error('Invalid date after parsing:', dateTimeStr)
+                      return null
+                    }
+                    const day = format(jstDate, 'dd')
+                    const time = format(jstDate, 'HH:mm')
                     const dateStr = `${day} ${time}`
                     
                     const backgroundColor = LEAGUE_COLORS[match.competition_name] || '#ffffff'
