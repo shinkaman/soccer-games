@@ -125,7 +125,7 @@ export default function Home() {
         setError(null)
 
         // JSONファイルからデータを読み込む
-        const response = await fetch('/data/matches.json')
+        const response = await fetch('data/matches.json')
         
         if (!response.ok) {
           throw new Error(`Failed to fetch matches: ${response.statusText}`)
