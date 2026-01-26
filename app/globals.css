@@ -35,60 +35,18 @@ a {
 .header {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
-  padding: 2rem 0;
-  margin-bottom: 2rem;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .header h1 {
   text-align: center;
-  font-size: 2rem;
-  font-weight: 700;
-}
-
-.filters {
-  background: white;
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin-bottom: 2rem;
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.filter-group {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.filter-group label {
-  font-size: 0.875rem;
-  font-weight: 600;
-  color: #666;
-}
-
-.filter-group select {
-  padding: 0.5rem;
-  border: 1px solid #ddd;
-  border-radius: 4px;
   font-size: 1rem;
-  min-width: 200px;
+  font-weight: 600;
+  margin: 0;
 }
 
-.filter-group input[type="checkbox"] {
-  width: 20px;
-  height: 20px;
-  cursor: pointer;
-}
-
-.checkbox-group {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
 
 .matches-table {
   background: white;
@@ -112,11 +70,66 @@ a {
   font-weight: 600;
   color: #333;
   border-bottom: 2px solid #dee2e6;
+  white-space: nowrap;
+}
+
+.matches-table th.jp-header {
+  user-select: none;
+  cursor: pointer;
+  padding: 0.75rem;
+  text-align: center;
+  transition: all 0.2s;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+}
+
+.matches-table th.jp-header:hover {
+  background-color: #e9ecef;
+  border-color: #adb5bd;
+}
+
+.matches-table th.jp-header.jp-active {
+  background-color: #d4edda;
+  border-color: #28a745;
+  color: #155724;
+}
+
+.matches-table th.jp-header .jp-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+}
+
+.matches-table th.jp-header .jp-label {
+  font-weight: 600;
+}
+
+.matches-table th.jp-header .jp-indicator {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #28a745;
 }
 
 .matches-table td {
   padding: 1rem;
   border-bottom: 1px solid #dee2e6;
+  word-break: break-word;
+}
+
+/* L列とKO列のパディングを狭く */
+.matches-table th:nth-child(1),
+.matches-table td:nth-child(1) {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  text-align: center;
+}
+
+.matches-table th:nth-child(2),
+.matches-table td:nth-child(2) {
+  padding-left: 0.5rem;
+  padding-right: 0.75rem;
 }
 
 .matches-table tbody tr:hover {
@@ -168,23 +181,79 @@ a {
 }
 
 @media (max-width: 768px) {
-  .filters {
-    flex-direction: column;
+  .container {
+    padding: 10px;
   }
 
-  .filter-group {
-    width: 100%;
-  }
-
-  .filter-group select {
-    width: 100%;
+  .header h1 {
+    font-size: 0.875rem;
   }
 
   .matches-table {
     overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
 
   .matches-table table {
-    min-width: 600px;
+    min-width: 450px;
+    font-size: 0.875rem;
+  }
+
+  .matches-table th {
+    padding: 0.5rem 0.4rem;
+    font-size: 0.7rem;
+  }
+
+  .matches-table th.jp-header {
+    padding: 0.4rem 0.3rem;
+    font-size: 0.65rem;
+  }
+
+  .matches-table td {
+    padding: 0.5rem 0.4rem;
+    font-size: 0.8rem;
+  }
+
+  /* 列幅の最適化 */
+  .matches-table th:nth-child(1),
+  .matches-table td:nth-child(1) {
+    min-width: 28px;
+    max-width: 32px;
+    text-align: center;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+  }
+
+  .matches-table th:nth-child(2),
+  .matches-table td:nth-child(2) {
+    min-width: 65px;
+    max-width: 70px;
+    padding-left: 0.2rem;
+    padding-right: 0.4rem;
+  }
+
+  .matches-table th:nth-child(3),
+  .matches-table td:nth-child(3),
+  .matches-table th:nth-child(4),
+  .matches-table td:nth-child(4) {
+    min-width: 100px;
+    max-width: 120px;
+  }
+
+  .matches-table th:nth-child(5),
+  .matches-table td:nth-child(5) {
+    min-width: 40px;
+    max-width: 50px;
+    text-align: center;
+  }
+
+  /* 最初の列（LEAGUE）を固定表示 */
+  .matches-table th:first-child,
+  .matches-table td:first-child {
+    position: sticky;
+    left: 0;
+    background: inherit;
+    z-index: 1;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
   }
 }

@@ -1,23 +1,275 @@
 'use client'
 
 import { useState, useEffect, useMemo } from 'react'
-import { Match, MatchFilter } from '@/lib/types'
+import { Match } from '@/lib/types'
 import { format, parseISO } from 'date-fns'
-import { ja } from 'date-fns/locale'
 
-// リーグ名の日本語表記マッピング
-const LEAGUE_NAMES_JA: Record<string, string> = {
-  'Premier League': 'プレミアリーグ',
-  'UEFA Champions League': 'UEFAチャンピオンズリーグ',
-  'Primeira Liga': 'プリメイラリーガ',
-  'La Liga': 'ラ・リーガ',
-  'Serie A': 'セリエA',
-  'Bundesliga': 'ブンデスリーガ',
-  'Ligue 1': 'リーグアン',
-  'Eredivisie': 'エールディヴィジ',
-  'World Cup': 'FIFAワールドカップ',
-  'Championship': 'EFLチャンピオンシップ',
-  'J.League': 'Jリーグ',
+// チーム名の日本語表記マッピング
+const TEAM_NAMES_JA: Record<string, string> = {
+  // Premier League
+  'Arsenal FC': 'アーセナル',
+  'Brighton & Hove Albion FC': 'ブライトン',
+  'Liverpool FC': 'リバプール',
+  'Tottenham Hotspur FC': 'トッテナム',
+  'Fulham FC': 'フルハム',
+  'Manchester United FC': 'マンチェスター・ユナイテッド',
+  'Manchester City FC': 'マンチェスター・シティ',
+  'Chelsea FC': 'チェルシー',
+  'Newcastle United FC': 'ニューカッスル',
+  'West Ham United FC': 'ウェストハム',
+  'Aston Villa FC': 'アストン・ヴィラ',
+  'Crystal Palace FC': 'クリスタル・パレス',
+  'Everton FC': 'エバートン',
+  'Leicester City FC': 'レスター',
+  'Wolverhampton Wanderers FC': 'ウルバーハンプトン',
+  'Leeds United FC': 'リーズ',
+  'Southampton FC': 'サウサンプトン',
+  'Burnley FC': 'バーンリー',
+  'Watford FC': 'ワトフォード',
+  'Norwich City FC': 'ノリッジ',
+  'Brentford FC': 'ブレントフォード',
+  'Nottingham Forest FC': 'ノッティンガム',
+  'Bournemouth AFC': 'ボーンマス',
+  'Sheffield United FC': 'シェフィールド・ユナイテッド',
+  'Luton Town FC': 'ルートン',
+  'Ipswich Town FC': 'イプスウィッチ',
+  
+  // La Liga
+  'Real Madrid CF': 'レアル・マドリード',
+  'FC Barcelona': 'バルセロナ',
+  'Club Atlético de Madrid': 'アトレティコ・マドリード',
+  'Atletico Madrid': 'アトレティコ・マドリード',
+  'Real Sociedad': 'レアル・ソシエダ',
+  'Real Sociedad de Fútbol': 'ソシエダ',
+  'Sevilla FC': 'セビリア',
+  'Real Betis Balompie': 'ベティス',
+  'Villarreal CF': 'ビジャレアル',
+  'Valencia CF': 'バレンシア',
+  'Athletic Club': 'アスレティック・ビルバオ',
+  'CA Osasuna': 'オサスナ',
+  'Getafe CF': 'ヘタフェ',
+  'Rayo Vallecano': 'ラージョ・バジェカーノ',
+  'Girona FC': 'ジローナ',
+  'UD Las Palmas': 'ラス・パルマス',
+  'RC Celta de Vigo': 'セルタ',
+  'Real Valladolid CF': 'バジャドリード',
+  'RCD Espanyol': 'エスパニョール',
+  'Granada CF': 'グラナダ',
+  'UD Almeria': 'アルメリア',
+  'Cadiz CF': 'カディス',
+  'Deportivo Alaves': 'アラベス',
+  'Mallorca': 'マジョルカ',
+  
+  // Serie A
+  'Juventus FC': 'ユベントス',
+  'AC Milan': 'ACミラン',
+  'FC Internazionale Milano': 'インテル',
+  'Inter Milan': 'インテル',
+  'AS Roma': 'ASローマ',
+  'SS Lazio': 'ラツィオ',
+  'SSC Napoli': 'ナポリ',
+  'Atalanta BC': 'アタランタ',
+  'ACF Fiorentina': 'フィオレンティーナ',
+  'US Sassuolo Calcio': 'サッスオーロ',
+  'Udinese Calcio': 'ウディネーゼ',
+  'Torino FC': 'トリノ',
+  'Bologna FC 1909': 'ボローニャ',
+  'US Cremonese': 'クレモネーゼ',
+  'Hellas Verona FC': 'ヴェローナ',
+  'Empoli FC': 'エンポリ',
+  'US Lecce': 'レッチェ',
+  'Spezia Calcio': 'スペツィア',
+  'Salernitana': 'サレルニターナ',
+  'AC Monza': 'モンツァ',
+  'Genoa CFC': 'ジェノア',
+  'Cagliari Calcio': 'カリアリ',
+  'Frosinone Calcio': 'フロジノーネ',
+  'Parma Calcio 1913': 'パルマ',
+  'AC Pisa 1909': 'ピサ1909',
+  'Como 1907': 'コモ1907',
+  
+  // Bundesliga
+  'Borussia Dortmund': 'ドルトムント',
+  'Eintracht Frankfurt': 'フランクフルト',
+  'VfB Stuttgart': 'シュトゥットガルト',
+  'VfL Bochum': 'ボーフム',
+  'FC Bayern München': 'バイエルン・ミュンヘン',
+  'RB Leipzig': 'RBライプツィヒ',
+  'Bayer 04 Leverkusen': 'レバークーゼン',
+  '1. FC Union Berlin': 'ウニオン・ベルリン',
+  'SC Freiburg': 'フライブルク',
+  '1. FC Köln': 'ケルン',
+  'TSG 1899 Hoffenheim': 'ホッフェンハイム',
+  'VfL Wolfsburg': 'ヴォルフスブルク',
+  'Borussia Mönchengladbach': 'ボルシアMG',
+  'SV Werder Bremen': 'ブレーメン',
+  '1. FSV Mainz 05': 'マインツ',
+  'FC Augsburg': 'アウクスブルク',
+  'VfL Bochum 1848': 'ボーフム',
+  '1. FC Heidenheim 1846': 'ハイデンハイム',
+  'SV Darmstadt 98': 'ダルムシュタット',
+  'FC St. Pauli 1910': 'ザンクトパウリ',
+  'Hamburger SV': 'ハンブルグ',
+  
+  // Ligue 1
+  'AS Monaco': 'モナコ',
+  'AS Monaco FC': 'モナコ',
+  'Stade de Reims': 'ランス',
+  'Paris Saint-Germain FC': 'パリ・サンジェルマン',
+  'Olympique Marseille': 'マルセイユ',
+  'Olympique Lyonnais': 'リヨン',
+  'Olympique de Marseille': 'マルセイユ',
+  'Racing Club de Lens': 'ランス',
+  'RC Lens': 'ランス',
+  'OGC Nice': 'ニース',
+  'LOSC Lille': 'リール',
+  'Lille OSC': 'リール',
+  'Stade Rennais FC': 'レンヌ',
+  'Stade Rennais FC 1901': 'レンヌ',
+  'FC Nantes': 'ナント',
+  'Toulouse FC': 'トゥールーズ',
+  'Montpellier HSC': 'モンペリエ',
+  'FC Lorient': 'ロリアン',
+  'Clermont Foot 63': 'クレルモン',
+  'RC Strasbourg Alsace': 'ストラスブール',
+  'FC Metz': 'メス',
+  'Le Havre AC': 'ル・アーヴル',
+  
+  // Eredivisie
+  'AZ': 'AZ',
+  'Ajax Amsterdam': 'アヤックス',
+  'AFC Ajax': 'アヤックス',
+  'PSV Eindhoven': 'PSV',
+  'PSV': 'PSV',
+  'Feyenoord Rotterdam': 'フェイエノールト',
+  'FC Twente': 'トゥウェンテ',
+  'FC Twente \'65': 'トゥウェンテ',
+  'SC Heerenveen': 'ヘーレンフェーン',
+  'Vitesse Arnhem': 'フィテッセ',
+  'FC Utrecht': 'ユトレヒト',
+  'Sparta Rotterdam': 'スパルタ・ロッテルダム',
+  'Heracles Almelo': 'ヘラクレス',
+  'NEC Nijmegen': 'NEC',
+  'NEC': 'NEC',
+  'Fortuna Sittard': 'フォルトゥナ',
+  'Go Ahead Eagles': 'ゴー・アヘッド',
+  'RKC Waalwijk': 'RKC',
+  'FC Volendam': 'フォレンダム',
+  'Excelsior Rotterdam': 'エクセルシオール',
+  'SBV Excelsior': 'エクセルシオール',
+  'PEC Zwolle': 'ズヴォレ',
+  'Almere City FC': 'アルメレ',
+  'FC Groningen': 'フローニンゲン',
+  'NAC Breda': 'NAC',
+  
+  // Primeira Liga
+  'FC Porto': 'ポルト',
+  'SL Benfica': 'ベンフィカ',
+  'Sporting CP': 'スポルティング',
+  'SC Braga': 'ブラガ',
+  'Vitória SC': 'ヴィトーリア',
+  'FC Famalicão': 'ファマリカン',
+  'Rio Ave FC': 'リオ・アヴェ',
+  'CD Santa Clara': 'サンタ・クララ',
+  'Gil Vicente FC': 'ジル・ヴィセンテ',
+  'FC Vizela': 'ヴィゼラ',
+  'Boavista FC': 'ボアヴィスタ',
+  'Portimonense SC': 'ポルティモネンセ',
+  'Casa Pia AC': 'カサ・ピア',
+  'GD Estoril Praia': 'エストリル',
+  'FC Arouca': 'アロウカ',
+  'CD Tondela': 'トンデラ',
+  'Moreirense FC': 'モレイレンセ',
+  'Farense': 'ファレンセ',
+  
+  // Championship
+  'West Bromwich Albion FC': 'WBA',
+  'Hull City AFC': 'ハル',
+  'Coventry City FC': 'コヴェントリー',
+  'Middlesbrough FC': 'ミドルズブラ',
+  'Preston North End FC': 'プレストン',
+  'Cardiff City FC': 'カーディフ',
+  'Bristol City FC': 'ブリストル・シティ',
+  'Sunderland AFC': 'サンダーランド',
+  'Swansea City AFC': 'スウォンジー',
+  'Millwall FC': 'ミルウォール',
+  'Blackburn Rovers FC': 'ブラックバーン',
+  'Plymouth Argyle FC': 'プリマス',
+  'Birmingham City FC': 'バーミンガム',
+  'Huddersfield Town AFC': 'ハダースフィールド',
+  'Sheffield Wednesday FC': 'シェフィールド・ウェンズデイ',
+  'Stoke City FC': 'ストーク',
+  'Queens Park Rangers FC': 'QPR',
+  'Rotherham United FC': 'ロザラム',
+  'Portsmouth FC': 'ポーツマス',
+  'Derby County FC': 'ダービー',
+  'Oxford United FC': 'オックスフォードU',
+  'Charlton Athletic FC': 'チャールトン・アスレティック',
+  'Wrexham AFC': 'ウェクスハム',
+  
+  // World Cup
+  'Japan': '日本',
+  
+  // その他のチーム（UEFA Champions League、その他）
+  'Qarabağ Ağdam FK': 'カラバフ',
+  'FC København': 'コペンハーゲン',
+  'Galatasaray SK': 'ガラタサライ',
+  'FK Kairat': 'カイラト',
+  'Royale Union Saint-Gilloise': 'ユニオン',
+  'Club Brugge KV': 'クラブブルッヘ',
+  'FK Bodø/Glimt': 'ボデ・グリムト',
+  'Sporting Clube de Portugal': 'スポルティング',
+  'PAE Olympiakos SFP': 'オリンピアコス',
+  'Paphos FC': 'パフォス',
+  'SK Slavia Praha': 'スラヴィア・プラハ',
+  'Real Oviedo': 'オビエド',
+  'RCD Mallorca': 'マジョルカ',
+  'RCD Espanyol de Barcelona': 'エスパニョール',
+  'Elche CF': 'エルチェ',
+  'Levante UD': 'レバンテ',
+  'Rayo Vallecano de Madrid': 'ラヨ・バレカノ・マドリード',
+  'Real Betis Balompié': 'ベティス',
+  'Deportivo Alavés': 'アラベス',
+  'Sport Lisboa e Benfica': 'ベンフィカ',
+  'Sporting Clube de Braga': 'ブラガ',
+  'FC Alverca': 'アルベルカ',
+  'CF Estrela da Amadora': 'エストレラ・ダ・アマドラ',
+  'CD Nacional': 'ナシオナル',
+  'Paris FC': 'パリFC',
+  'Angers SCO': 'アンジェー',
+  'Stade Brestois 29': 'ブレスト29',
+  'AFC Bournemouth': 'ボーンマウス',
+  'AVS': 'AVS',
+  'Telstar 1963': 'テルスター1963',
+  
+  // J.League (一般的な表記)
+  'FC東京': 'FC東京',
+  '川崎フロンターレ': '川崎',
+  '横浜F・マリノス': '横浜FM',
+  '浦和レッズ': '浦和',
+  '鹿島アントラーズ': '鹿島',
+  'セレッソ大阪': 'C大阪',
+  'ガンバ大阪': 'G大阪',
+  '名古屋グランパス': '名古屋',
+  'サンフレッチェ広島': '広島',
+  'ヴィッセル神戸': '神戸',
+  '柏レイソル': '柏',
+  '大分トリニータ': '大分',
+  '湘南ベルマーレ': '湘南',
+  '北海道コンサドーレ札幌': '札幌',
+  '清水エスパルス': '清水',
+  'ジュビロ磐田': '磐田',
+  'アビスパ福岡': '福岡',
+  '東京ヴェルディ': '東京V',
+  'ヴァンフォーレ甲府': '甲府',
+  'アルビレックス新潟': '新潟',
+  'FC町田ゼルビア': '町田',
+  'サガン鳥栖': '鳥栖',
+}
+
+// チーム名を日本語表記に変換する関数
+function getTeamNameJa(teamName: string): string {
+  return TEAM_NAMES_JA[teamName] || teamName
 }
 
 // リーグごとの国旗絵文字
@@ -54,39 +306,13 @@ export default function Home() {
   const [matches, setMatches] = useState<Match[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
-  const [filter, setFilter] = useState<MatchFilter>({
-    japaneseOnly: false,
-  })
-
-  // リーグ一覧を取得（日本語表記で）
-  const competitions = useMemo(() => {
-    return Array.from(
-      new Set(matches.map(m => m.competition_name))
-    ).sort()
-  }, [matches])
-  
-  // フィルタ用のリーグ一覧（日本語表記）
-  const competitionsForFilter = useMemo(() => {
-    return competitions.map(comp => ({
-      original: comp,
-      japanese: LEAGUE_NAMES_JA[comp] || comp
-    }))
-  }, [competitions])
+  const [japaneseOnly, setJapaneseOnly] = useState(true)
 
   // フィルタリングされた試合を取得（useMemoで最適化）
   const filteredMatches = useMemo(() => {
     return matches.filter(match => {
     try {
-      // フィルタが日本語表記の場合は元のリーグ名に変換
-      if (filter.competition) {
-        const originalName = competitionsForFilter.find(c => c.japanese === filter.competition)?.original
-        if (originalName && match.competition_name !== originalName) {
-          return false
-        } else if (!originalName && match.competition_name !== filter.competition) {
-          return false
-        }
-      }
-      if (filter.japaneseOnly && !match.has_japanese_player) {
+      if (japaneseOnly && !match.has_japanese_player) {
         return false
       }
       
@@ -115,7 +341,7 @@ export default function Home() {
       return false
     }
   })
-  }, [matches, filter, competitionsForFilter])
+  }, [matches, japaneseOnly])
 
   // データ取得
   useEffect(() => {
@@ -173,40 +399,6 @@ export default function Home() {
       <main className="container">
         {error && <div className="error">{error}</div>}
 
-        <div className="filters">
-          <div className="filter-group">
-            <label htmlFor="competition">リーグ・大会</label>
-            <select
-              id="competition"
-              value={filter.competition || ''}
-              onChange={(e) =>
-                setFilter({ ...filter, competition: e.target.value || undefined })
-              }
-            >
-              <option value="">すべて</option>
-              {competitionsForFilter.map((comp) => (
-                <option key={comp.original} value={comp.japanese}>
-                  {comp.japanese}
-                </option>
-              ))}
-            </select>
-          </div>
-
-          <div className="filter-group">
-            <div className="checkbox-group">
-              <input
-                type="checkbox"
-                id="japaneseOnly"
-                checked={filter.japaneseOnly || false}
-                onChange={(e) =>
-                  setFilter({ ...filter, japaneseOnly: e.target.checked })
-                }
-              />
-              <label htmlFor="japaneseOnly">日本人所属試合のみ</label>
-            </div>
-          </div>
-        </div>
-
         {loading ? (
           <div className="loading">読み込み中...</div>
         ) : filteredMatches.length === 0 ? (
@@ -218,11 +410,20 @@ export default function Home() {
             <table>
               <thead>
                 <tr>
-                  <th>LEAGUE</th>
+                  <th>L</th>
                   <th>KO</th>
                   <th>HOME</th>
                   <th>AWAY</th>
-                  <th>JP</th>
+                  <th 
+                    className={`jp-header ${japaneseOnly ? 'jp-active' : ''}`}
+                    onClick={() => setJapaneseOnly(!japaneseOnly)}
+                    title={japaneseOnly ? '全試合を表示' : '日本人所属試合のみ表示'}
+                  >
+                    <span className="jp-toggle">
+                      <span className="jp-label">JP</span>
+                      <span className="jp-indicator">{japaneseOnly ? '✓' : ''}</span>
+                    </span>
+                  </th>
                 </tr>
               </thead>
               <tbody>
@@ -233,12 +434,10 @@ export default function Home() {
                       console.error('Invalid date:', match.kickoff_datetime_jst)
                       return null
                     }
-                    const dayOfWeek = format(matchDate, 'E', { locale: ja })
-                    const day = format(matchDate, 'd')
+                    const day = format(matchDate, 'dd')
                     const time = format(matchDate, 'HH:mm')
-                    const dateStr = `${day}(${dayOfWeek})${time}`
+                    const dateStr = `${day} ${time}`
                     
-                    const leagueNameJa = LEAGUE_NAMES_JA[match.competition_name] || match.competition_name
                     const backgroundColor = LEAGUE_COLORS[match.competition_name] || '#ffffff'
                     const flag = LEAGUE_FLAGS[match.competition_name] || '🏳️' // デフォルトは白旗
                     
@@ -247,16 +446,12 @@ export default function Home() {
                         key={match.id}
                         style={{ backgroundColor }}
                       >
-                        <td>{flag} {leagueNameJa}</td>
+                        <td>{flag}</td>
                         <td>{dateStr}</td>
-                        <td>{match.home_team}</td>
-                        <td>{match.away_team}</td>
-                        <td>
-                          {match.has_japanese_player && (
-                            <span className="japanese-flag" title="日本人所属">
-                              🇯🇵
-                            </span>
-                          )}
+                        <td>{getTeamNameJa(match.home_team)}</td>
+                        <td>{getTeamNameJa(match.away_team)}</td>
+                        <td style={{ textAlign: 'center' }}>
+                          {match.has_japanese_player && '🇯🇵'}
                         </td>
                       </tr>
                     )
