@@ -1,0 +1,37 @@
+{
+  "UEFA Champions League": [ "Bayern",  "Liverpool" 
+  ],
+  "Primeira Liga": ["Sporting CP","Arouca" ],
+  "Premier League": ["Arsenal",
+  "Liverpool",
+  "Leeds United",
+  "Crystal Palace",
+  "Brighton Hove"
+  ],
+  "Eredivisie": [
+  "Feyenoord",
+  "Ajax",
+  "NEC","Sparta"  ],
+  "Bundesliga": [    
+  "Bayern",
+  "HSV",
+  "Stuttgart",
+  "Wolfsburg",
+  "Bremen",
+  "Mainz",
+  "Freiburg",
+  "M'gladbach",
+  "Frankfurt",
+  "St. Pauli"],
+  "Ligue 1": ["AS Monaco", "Stade de Reims"],
+  "Serie A": ["Parma"],
+  "La Liga": ["Real Sociedad", "Mallorca"],
+  "Championship": ["Blackburn",
+  "QPR",
+  "Stoke",
+  "Birmingham",
+  "Southampton",
+  "Bristol City",
+  "Coventry City"],
+  "World Cup": ["Japan"]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "soccer-games",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "fetch-data": "tsx scripts/fetch-matches.ts",
+    "fetch-teams": "tsx scripts/fetch-teams.ts",
+    "fetch-jleague": "tsx scripts/fetch-jleague.ts",
+    "merge-jleague": "tsx scripts/merge-jleague.ts",
+    "build-japanese-teams": "tsx scripts/build-japanese-teams.ts",
+    "export": "next build"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "date-fns": "^2.30.0",
+    "date-fns-tz": "^2.0.0",
+    "cheerio": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.0.0",
+    "tsx": "^4.7.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0"
+  }
+}

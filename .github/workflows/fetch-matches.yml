@@ -1,0 +1,41 @@
+name: Fetch Match Data
+
+on:
+  schedule:
+    # 毎日 JST 4:00 (UTC 19:00) に実行
+    - cron: '0 19 * * *'
+  workflow_dispatch: # 手動実行も可能
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Fetch J.League data
+        run: npm run fetch-jleague
+        continue-on-error: true
+      
+      - name: Fetch match data
+        env:
+          FOOTBALL_DATA_KEY: ${{ secrets.FOOTBALL_DATA_KEY }}
+        run: npm run fetch-data
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add public/data/matches.json
+          git diff --staged --quiet || git commit -m "Update match data [skip ci]"
+          git push
