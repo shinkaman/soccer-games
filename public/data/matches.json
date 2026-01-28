@@ -1,75 +1,5 @@
 [
   {
-    "id": "537030",
-    "api_match_id": "537030",
-    "competition_name": "Serie A",
-    "competition_id": "2019",
-    "round": "第22節",
-    "kickoff_datetime_jst": "2026-01-27T04:45:00.000Z",
-    "home_team": "Hellas Verona FC",
-    "away_team": "Udinese Calcio",
-    "home_team_id": "450",
-    "away_team_id": "115",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
-    "id": "538010",
-    "api_match_id": "538010",
-    "competition_name": "Premier League",
-    "competition_id": "2021",
-    "round": "第23節",
-    "kickoff_datetime_jst": "2026-01-27T05:00:00.000Z",
-    "home_team": "Everton FC",
-    "away_team": "Leeds United FC",
-    "home_team_id": "62",
-    "away_team_id": "341",
-    "has_japanese_player": true,
-    "status": "FINISHED"
-  },
-  {
-    "id": "544418",
-    "api_match_id": "544418",
-    "competition_name": "La Liga",
-    "competition_id": "2014",
-    "round": "第21節",
-    "kickoff_datetime_jst": "2026-01-27T05:00:00.000Z",
-    "home_team": "Girona FC",
-    "away_team": "Getafe CF",
-    "home_team_id": "298",
-    "away_team_id": "82",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
-    "id": "541056",
-    "api_match_id": "541056",
-    "competition_name": "Championship",
-    "competition_id": "2016",
-    "round": "第29節",
-    "kickoff_datetime_jst": "2026-01-27T05:00:00.000Z",
-    "home_team": "Norwich City FC",
-    "away_team": "Coventry City FC",
-    "home_team_id": "68",
-    "away_team_id": "1076",
-    "has_japanese_player": true,
-    "status": "FINISHED"
-  },
-  {
-    "id": "545864",
-    "api_match_id": "545864",
-    "competition_name": "Primeira Liga",
-    "competition_id": "2017",
-    "round": "第19節",
-    "kickoff_datetime_jst": "2026-01-27T05:15:00.000Z",
-    "home_team": "FC Porto",
-    "away_team": "Gil Vicente FC",
-    "home_team_id": "503",
-    "away_team_id": "5533",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
     "id": "540545",
     "api_match_id": "540545",
     "competition_name": "Bundesliga",
@@ -81,7 +11,7 @@
     "home_team_id": "12",
     "away_team_id": "2",
     "has_japanese_player": true,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "540548",
@@ -95,7 +25,7 @@
     "home_team_id": "20",
     "away_team_id": "721",
     "has_japanese_player": true,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "551950",
