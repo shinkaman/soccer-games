@@ -10,6 +10,7 @@
     "fetch-data": "tsx scripts/fetch-matches.ts",
     "fetch-teams": "tsx scripts/fetch-teams.ts",
     "fetch-jleague": "tsx scripts/fetch-jleague.ts",
+    "fetch-proleague": "tsx scripts/fetch-proleague.ts",
     "merge-jleague": "tsx scripts/merge-jleague.ts",
     "build-japanese-teams": "tsx scripts/build-japanese-teams.ts",
     "export": "next build"

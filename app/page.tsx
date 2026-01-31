@@ -211,6 +211,25 @@ const TEAM_NAMES_JA: Record<string, string> = {
   // World Cup
   'Japan': '日本',
   
+  // Jupiler Pro League（ベルギー）
+  'RAAL La Louvière': 'ラ・ルヴィエール',
+  'KAA Gent': 'ヘント',
+  'Cercle Brugge KSV': 'サークル・ブルッヘ',
+  'Royal Antwerp FC': 'アントワープ',
+  'SV Zulte Waregem': 'ズルテ・ワレヘム',
+  'KVC Westerlo': 'ウェステルロ',
+  'STVV': 'シント＝トロイデン',
+  'Sporting de Charleroi': 'シャルルロワ',
+  'Standard de Liège': 'スタンダール・リエージュ',
+  'Royal Sporting Club Anderlecht': 'アンデルレヒト',
+  'Dender EH': 'デンデル',
+  'FCV Dender EH': 'デンデル',
+  'KRC Genk': 'ヘンク',
+  'Royale Union St-Gilloise': 'ユニオンSG',
+  'Club Brugge': 'クラブ・ブルッヘ',
+  'OH Leuven': 'OHルーヴェン',
+  'KV Mechelen': 'メヘレン',
+  
   // その他のチーム（UEFA Champions League、その他）
   'Qarabağ Ağdam FK': 'カラバフ',
   'FC København': 'コペンハーゲン',
@@ -286,6 +305,7 @@ const LEAGUE_FLAGS: Record<string, string> = {
   'World Cup': '🌍', // 地球（世界）
   'Championship': '🇬🇧', // イングランド
   'J.League': '🇯🇵', // 日本
+  'Jupiler Pro League': '🇧🇪', // ベルギー
 }
 
 // リーグごとの背景色
@@ -301,6 +321,7 @@ const LEAGUE_COLORS: Record<string, string> = {
   'World Cup': '#e1f5fe', // 薄い水色
   'Championship': '#f1f8e9', // 薄い黄緑
   'J.League': '#ffe0e0', // 薄い赤（日本のイメージ）
+  'Jupiler Pro League': '#fff8e1', // 薄い黄（ベルギー）
 }
 
 export default function Home() {
@@ -308,6 +329,7 @@ export default function Home() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const [japaneseOnly, setJapaneseOnly] = useState(true)
+  const [displayedAt, setDisplayedAt] = useState<Date | null>(null)
 
   // フィルタリングされた試合を取得（useMemoで最適化）
   const filteredMatches = useMemo(() => {
@@ -377,6 +399,7 @@ export default function Home() {
         })
 
         setMatches(sortedData)
+        setDisplayedAt(new Date())
         console.log(`Set ${sortedData.length} matches to state`)
       } catch (err) {
         console.error('Error fetching matches:', err)
@@ -393,7 +416,12 @@ export default function Home() {
     <div>
       <header className="header">
         <div className="container">
-          <h1>サッカー試合日程一覧</h1>
+          <h1 className="title-with-time">
+            サッカー試合日程一覧
+            {displayedAt && (
+              <span className="displayed-at">（{format(displayedAt, 'dd HH:mm')}時点）</span>
+            )}
+          </h1>
         </div>
       </header>
 

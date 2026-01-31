@@ -56,6 +56,13 @@ export const JAPANESE_TEAMS: Record<string, readonly string[]> = {
     "Bristol City",
     "Coventry City"
   ],
+  "Jupiler Pro League": [
+    "KAA Gent",
+    "Union St-Gilloise",
+    "Royal Antwerp FC",
+    "STVV",
+    "KVC Westerlo"
+  ],
   "World Cup": [
     "Japan"
   ]

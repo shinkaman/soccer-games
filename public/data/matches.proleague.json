@@ -1,0 +1,90 @@
+[
+  {
+    "id": "proleague-0-1769823678268",
+    "api_match_id": "proleague-0-1769823678268",
+    "competition_name": "Jupiler Pro League",
+    "round": null,
+    "kickoff_datetime_jst": "2026-01-31T04:45:00.000Z",
+    "home_team": "RAAL La Louvière",
+    "away_team": "KAA Gent",
+    "has_japanese_player": false,
+    "status": "FINISHED"
+  },
+  {
+    "id": "proleague-1-1769823678268",
+    "api_match_id": "proleague-1-1769823678268",
+    "competition_name": "Jupiler Pro League",
+    "round": null,
+    "kickoff_datetime_jst": "2026-02-01T00:00:00.000Z",
+    "home_team": "Cercle Brugge KSV",
+    "away_team": "Royal Antwerp FC",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "proleague-2-1769823678268",
+    "api_match_id": "proleague-2-1769823678268",
+    "competition_name": "Jupiler Pro League",
+    "round": null,
+    "kickoff_datetime_jst": "2026-02-01T02:15:00.000Z",
+    "home_team": "SV Zulte Waregem",
+    "away_team": "KVC Westerlo",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "proleague-3-1769823678268",
+    "api_match_id": "proleague-3-1769823678268",
+    "competition_name": "Jupiler Pro League",
+    "round": null,
+    "kickoff_datetime_jst": "2026-02-01T04:45:00.000Z",
+    "home_team": "STVV",
+    "away_team": "Sporting de Charleroi",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "proleague-4-1769823678268",
+    "api_match_id": "proleague-4-1769823678268",
+    "competition_name": "Jupiler Pro League",
+    "round": null,
+    "kickoff_datetime_jst": "2026-02-01T21:30:00.000Z",
+    "home_team": "Standard de Liège",
+    "away_team": "Royal Sporting Club Anderlecht",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "proleague-5-1769823678268",
+    "api_match_id": "proleague-5-1769823678268",
+    "competition_name": "Jupiler Pro League",
+    "round": null,
+    "kickoff_datetime_jst": "2026-02-02T00:00:00.000Z",
+    "home_team": "Dender EH",
+    "away_team": "KRC Genk",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "proleague-6-1769823678268",
+    "api_match_id": "proleague-6-1769823678268",
+    "competition_name": "Jupiler Pro League",
+    "round": null,
+    "kickoff_datetime_jst": "2026-02-02T02:30:00.000Z",
+    "home_team": "Royale Union St-Gilloise",
+    "away_team": "Club Brugge",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "proleague-7-1769823678268",
+    "api_match_id": "proleague-7-1769823678268",
+    "competition_name": "Jupiler Pro League",
+    "round": null,
+    "kickoff_datetime_jst": "2026-02-02T03:15:00.000Z",
+    "home_team": "OH Leuven",
+    "away_team": "KV Mechelen",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  }
+]

@@ -28,6 +28,7 @@
 - 🇳🇱 **Eredivisie** - エールディヴィジ（オランダ）
 - 🇵🇹 **Primeira Liga** - プリメイラ・リーガ（ポルトガル）
 - 🇬🇧 **Championship** - EFLチャンピオンシップ（イングランド）
+- 🇧🇪 **Jupiler Pro League** - ジュピラー・プロリーグ（ベルギー）
 - 🇪🇺 **UEFA Champions League** - UEFAチャンピオンズリーグ
 - 🌍 **FIFA World Cup** - FIFAワールドカップ
 
@@ -42,6 +43,7 @@
 - **データ取得**: GitHub Actions（日次自動更新）
 - **データソース**: 
   - football-data.org API（欧州リーグ）
+  - proleague.be（ジュピラー・プロリーグ・ベルギー）
   - data.j-league.or.jp（Jリーグ）
 
 ---
@@ -96,13 +98,32 @@ GitHub Actionsにより、毎日JST 4:00（UTC 19:00）に自動的にデータ�
 # Jリーグデータを取得
 npm run fetch-jleague
 
-# 全データを取得（欧州リーグ + Jリーグ）
+# ジュピラー・プロリーグ（ベルギー）データを取得
+npm run fetch-proleague
+
+# 全データを取得（欧州リーグ + ジュピラー・プロリーグ + Jリーグ）
 npm run fetch-data
 ```
+
+### 日本人所属チーム定義の更新（build-japanese-teams）
+
+`data/japanese.manual.json` を編集したあとは、**必ず**次のコマンドを実行してください。
+
+```bash
+npm run build-japanese-teams
+```
+
+**実行が必要な主なケース：**
+
+- **新リーグを追加したとき**（例：ジュピラー・プロリーグを追加し、`japanese.manual.json` にそのリーグと日本人所属チームを追加したとき）
+- **既存リーグの日本人所属チームを追加・変更したとき**（`japanese.manual.json` のチーム名やリーグ名を編集したとき）
+
+このコマンドを実行すると、`lib/japanese-teams.ts` が `japanese.manual.json` の内容で上書きされます。**実行しないと**、`npm run fetch-data` で取得した試合に「日本人所属」マークが正しく付きません。新リーグ追加時は「manual を編集 → build-japanese-teams → fetch-data」の順で行うと漏れません。
 
 ### データソース
 
 - **欧州リーグ**: football-data.orgのFreeプランAPIを使用
+- **ジュピラー・プロリーグ**: proleague.beの公開カレンダーデータを使用
 - **Jリーグ**: data.j-league.or.jpの公開データを使用
 
 **注意**: Jリーグのデータ取得は、公開されているHTMLページから情報を抽出しています。サイト構造の変更により取得できない場合があります。
@@ -125,7 +146,8 @@ npm run fetch-data
 │   └── japanese.manual.json  # 日本人所属チーム定義
 ├── scripts/                # データ取得スクリプト
 │   ├── fetch-matches.ts   # 試合データ取得
-│   ├── fetch-jleague.ts  # Jリーグデータ取得
+│   ├── fetch-jleague.ts   # Jリーグデータ取得
+│   ├── fetch-proleague.ts # ジュピラー・プロリーグデータ取得
 │   └── build-japanese-teams.ts  # チーム定義生成
 ├── public/data/           # データファイル（自動生成）
 │   └── matches.json       # 試合データ

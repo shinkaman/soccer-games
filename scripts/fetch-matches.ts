@@ -85,20 +85,21 @@ async function fetchFixturesFromAPI(competitionId: number, dateFrom: string, dat
   }
 }
 
-// チームに日本人選手がいるかチェック
-async function checkJapanesePlayers(teamId: number, teamName: string, competitionName: string): Promise<boolean> {
-  // まず、JAPANESE_TEAMSリストでチェック
+// チームに日本人選手がいるかチェック（JAPANESE_TEAMS ベース・同期）
+function hasJapanesePlayerByTeamName(teamName: string, competitionName: string): boolean {
   const knownTeams = JAPANESE_TEAMS[competitionName] || []
   if (knownTeams.some(team => teamName.includes(team) || team.includes(teamName))) {
     return true
   }
-
-  // 簡易的にチーム名で判定
   if (teamName.includes('Japan') || teamName.includes('日本')) {
     return true
   }
-
   return false
+}
+
+// チームに日本人選手がいるかチェック（API用・非同期）
+async function checkJapanesePlayers(teamId: number, teamName: string, competitionName: string): Promise<boolean> {
+  return hasJapanesePlayerByTeamName(teamName, competitionName)
 }
 
 // 日時をJSTに変換
@@ -209,6 +210,31 @@ async function main() {
     }
   } else {
     console.log('J.League data file not found, skipping...')
+  }
+
+  // ジュピラー・プロリーグ（ベルギー）データを読み込んで結合
+  const proleaguePath = join(process.cwd(), 'public', 'data', 'matches.proleague.json')
+  const COMPETITION_PROLEAGUE = 'Jupiler Pro League'
+  if (existsSync(proleaguePath)) {
+    try {
+      const proleagueData = JSON.parse(readFileSync(proleaguePath, 'utf-8')) as Match[]
+      const filteredProLeague = proleagueData
+        .filter(match => {
+          const matchDate = new Date(match.kickoff_datetime_jst)
+          return matchDate >= yesterday && matchDate <= nextWeek
+        })
+        .map(match => {
+          const homeHasJapanese = hasJapanesePlayerByTeamName(match.home_team, COMPETITION_PROLEAGUE)
+          const awayHasJapanese = hasJapanesePlayerByTeamName(match.away_team, COMPETITION_PROLEAGUE)
+          return { ...match, has_japanese_player: homeHasJapanese || awayHasJapanese }
+        })
+      console.log(`Loaded ${filteredProLeague.length} Jupiler Pro League matches (filtered from ${proleagueData.length})`)
+      allMatches.push(...filteredProLeague)
+    } catch (error) {
+      console.error('Error loading Jupiler Pro League data:', error)
+    }
+  } else {
+    console.log('Jupiler Pro League data file not found, skipping...')
   }
 
   // 日付でソート
