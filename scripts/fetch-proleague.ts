@@ -7,12 +7,24 @@ const PROLEAGUE_URL = 'https://www.proleague.be/jpl-kalender'
 const COMPETITION_NAME = 'Jupiler Pro League'
 
 // Next.js の __NEXT_DATA__ 内の型（試合は module.data.matches のフラット配列）
+type NextDataRound = {
+  id?: string
+  name?: string
+  [key: string]: any
+}
+
 interface NextDataMatch {
   homeTeam?: { name?: string }
   awayTeam?: { name?: string }
   date?: string
   time?: string
   period?: { type?: string }
+}
+
+/** module.data の型（rounds と matches を両方持つ） */
+type NextDataModuleData = {
+  rounds?: NextDataRound[]
+  matches?: NextDataMatch[]
 }
 
 function normalizeTeamName(name: string): string {
@@ -59,9 +71,7 @@ async function fetchProLeagueMatches(): Promise<Match[]> {
               grids?: Array<{
                 areas?: Array<{
                   modules?: Array<{
-                    data?: {
-                      rounds?: NextDataRound[]
-                    }
+                    data?: NextDataModuleData
                   }>
                 }>
               }>
