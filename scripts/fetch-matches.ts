@@ -102,11 +102,11 @@ async function checkJapanesePlayers(teamId: number, teamName: string, competitio
   return hasJapanesePlayerByTeamName(teamName, competitionName)
 }
 
-// 日時をJSTに変換
+// APIのUTC日時をJSTに変換し、「JSTの数字をISO形式で保存」（表示側の前提に合わせる）
 function convertToJST(utcDate: string): string {
   const date = new Date(utcDate)
   const jstDate = utcToZonedTime(date, JST)
-  return jstDate.toISOString()
+  return format(jstDate, "yyyy-MM-dd'T'HH:mm:ss.SSS") + 'Z'
 }
 
 // メイン処理

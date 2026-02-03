@@ -49,9 +49,9 @@ function parseJLeagueDate(dateStr: string, timeStr: string): Date | null {
       return null
     }
 
-    // JSTでDateオブジェクトを作成（UTCとして扱い、後でJSTに変換）
-    // JSTはUTC+9なので、UTC時間を9時間引く
-    const date = new Date(Date.UTC(year, month - 1, day, hour - 9, minute))
+    // 表示側は「kickoff_datetime_jst の数字をJSTとしてそのまま表示」するため、
+    // JSTの日時をそのままISO文字列の数字にする（UTC変換しない）
+    const date = new Date(Date.UTC(year, month - 1, day, hour, minute))
     return date
   } catch (error) {
     console.error(`Error parsing date: ${dateStr} ${timeStr}`, error)
