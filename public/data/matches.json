@@ -1,75 +1,5 @@
 [
   {
-    "id": "537081",
-    "api_match_id": "537081",
-    "competition_name": "Serie A",
-    "competition_id": "2019",
-    "round": "第27節",
-    "kickoff_datetime_jst": "2026-03-03T02:30:00.000Z",
-    "home_team": "AC Pisa 1909",
-    "away_team": "Bologna FC 1909",
-    "home_team_id": "487",
-    "away_team_id": "103",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
-    "id": "537083",
-    "api_match_id": "537083",
-    "competition_name": "Serie A",
-    "competition_id": "2019",
-    "round": "第27節",
-    "kickoff_datetime_jst": "2026-03-03T04:45:00.000Z",
-    "home_team": "Udinese Calcio",
-    "away_team": "ACF Fiorentina",
-    "home_team_id": "115",
-    "away_team_id": "99",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
-    "id": "544469",
-    "api_match_id": "544469",
-    "competition_name": "La Liga",
-    "competition_id": "2014",
-    "round": "第26節",
-    "kickoff_datetime_jst": "2026-03-03T05:00:00.000Z",
-    "home_team": "Real Madrid CF",
-    "away_team": "Getafe CF",
-    "home_team_id": "86",
-    "away_team_id": "82",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
-    "id": "541120",
-    "api_match_id": "541120",
-    "competition_name": "Championship",
-    "competition_id": "2016",
-    "round": "第35節",
-    "kickoff_datetime_jst": "2026-03-03T05:00:00.000Z",
-    "home_team": "Birmingham City FC",
-    "away_team": "Middlesbrough FC",
-    "home_team_id": "332",
-    "away_team_id": "343",
-    "has_japanese_player": true,
-    "status": "FINISHED"
-  },
-  {
-    "id": "545913",
-    "api_match_id": "545913",
-    "competition_name": "Primeira Liga",
-    "competition_id": "2017",
-    "round": "第24節",
-    "kickoff_datetime_jst": "2026-03-03T05:15:00.000Z",
-    "home_team": "Gil Vicente FC",
-    "away_team": "Sport Lisboa e Benfica",
-    "home_team_id": "5533",
-    "away_team_id": "1903",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
     "id": "538065",
     "api_match_id": "538065",
     "competition_name": "Premier League",
@@ -151,7 +81,7 @@
     "home_team_id": "87",
     "away_team_id": "1048",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "IN_PLAY"
   },
   {
     "id": "538066",
@@ -165,7 +95,7 @@
     "home_team_id": "58",
     "away_team_id": "61",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "IN_PLAY"
   },
   {
     "id": "538067",
@@ -179,7 +109,7 @@
     "home_team_id": "397",
     "away_team_id": "57",
     "has_japanese_player": true,
-    "status": "TIMED"
+    "status": "IN_PLAY"
   },
   {
     "id": "538069",
@@ -193,7 +123,7 @@
     "home_team_id": "63",
     "away_team_id": "563",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "IN_PLAY"
   },
   {
     "id": "538071",
@@ -207,7 +137,7 @@
     "home_team_id": "65",
     "away_team_id": "351",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "IN_PLAY"
   },
   {
     "id": "540558",
@@ -221,7 +151,7 @@
     "home_team_id": "7",
     "away_team_id": "3",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "IN_PLAY"
   },
   {
     "id": "538072",
@@ -308,8 +238,8 @@
     "status": "TIMED"
   },
   {
-    "id": "proleague-0-1772579667861",
-    "api_match_id": "proleague-0-1772579667861",
+    "id": "proleague-0-1772653251312",
+    "api_match_id": "proleague-0-1772653251312",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-03-07T04:45:00.000Z",
@@ -637,8 +567,8 @@
     "status": "TIMED"
   },
   {
-    "id": "proleague-1-1772579667861",
-    "api_match_id": "proleague-1-1772579667861",
+    "id": "proleague-1-1772653251312",
+    "api_match_id": "proleague-1-1772653251312",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-03-08T00:00:00.000Z",
@@ -732,8 +662,8 @@
     "status": "TIMED"
   },
   {
-    "id": "proleague-2-1772579667861",
-    "api_match_id": "proleague-2-1772579667861",
+    "id": "proleague-2-1772653251312",
+    "api_match_id": "proleague-2-1772653251312",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-03-08T02:15:00.000Z",
@@ -827,8 +757,8 @@
     "status": "TIMED"
   },
   {
-    "id": "proleague-3-1772579667861",
-    "api_match_id": "proleague-3-1772579667861",
+    "id": "proleague-3-1772653251312",
+    "api_match_id": "proleague-3-1772653251312",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-03-08T04:45:00.000Z",
@@ -944,8 +874,8 @@
     "status": "TIMED"
   },
   {
-    "id": "proleague-4-1772579667861",
-    "api_match_id": "proleague-4-1772579667861",
+    "id": "proleague-4-1772653251312",
+    "api_match_id": "proleague-4-1772653251312",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-03-08T21:30:00.000Z",
@@ -1053,8 +983,8 @@
     "status": "TIMED"
   },
   {
-    "id": "proleague-5-1772579667861",
-    "api_match_id": "proleague-5-1772579667861",
+    "id": "proleague-5-1772653251312",
+    "api_match_id": "proleague-5-1772653251312",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-03-09T00:00:00.000Z",
@@ -1204,8 +1134,8 @@
     "status": "TIMED"
   },
   {
-    "id": "proleague-6-1772579667861",
-    "api_match_id": "proleague-6-1772579667861",
+    "id": "proleague-6-1772653251312",
+    "api_match_id": "proleague-6-1772653251312",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-03-09T02:30:00.000Z",
@@ -1229,8 +1159,8 @@
     "status": "TIMED"
   },
   {
-    "id": "proleague-7-1772579667861",
-    "api_match_id": "proleague-7-1772579667861",
+    "id": "proleague-7-1772653251312",
+    "api_match_id": "proleague-7-1772653251312",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-03-09T03:15:00.000Z",
@@ -1488,6 +1418,146 @@
     "away_team": "Ipswich Town FC",
     "home_team_id": "70",
     "away_team_id": "349",
+    "has_japanese_player": true,
+    "status": "TIMED"
+  },
+  {
+    "id": "552075",
+    "api_match_id": "552075",
+    "competition_name": "UEFA Champions League",
+    "competition_id": "2001",
+    "round": "第1節",
+    "kickoff_datetime_jst": "2026-03-12T02:45:00.000Z",
+    "home_team": "Bayer 04 Leverkusen",
+    "away_team": "Arsenal FC",
+    "home_team_id": "3",
+    "away_team_id": "57",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "541144",
+    "api_match_id": "541144",
+    "competition_name": "Championship",
+    "competition_id": "2016",
+    "round": "第37節",
+    "kickoff_datetime_jst": "2026-03-12T04:45:00.000Z",
+    "home_team": "Birmingham City FC",
+    "away_team": "Queens Park Rangers FC",
+    "home_team_id": "332",
+    "away_team_id": "69",
+    "has_japanese_player": true,
+    "status": "TIMED"
+  },
+  {
+    "id": "541147",
+    "api_match_id": "541147",
+    "competition_name": "Championship",
+    "competition_id": "2016",
+    "round": "第37節",
+    "kickoff_datetime_jst": "2026-03-12T04:45:00.000Z",
+    "home_team": "Norwich City FC",
+    "away_team": "Sheffield United FC",
+    "home_team_id": "68",
+    "away_team_id": "356",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "541153",
+    "api_match_id": "541153",
+    "competition_name": "Championship",
+    "competition_id": "2016",
+    "round": "第37節",
+    "kickoff_datetime_jst": "2026-03-12T04:45:00.000Z",
+    "home_team": "Middlesbrough FC",
+    "away_team": "Charlton Athletic FC",
+    "home_team_id": "343",
+    "away_team_id": "348",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "541154",
+    "api_match_id": "541154",
+    "competition_name": "Championship",
+    "competition_id": "2016",
+    "round": "第37節",
+    "kickoff_datetime_jst": "2026-03-12T04:45:00.000Z",
+    "home_team": "Oxford United FC",
+    "away_team": "Blackburn Rovers FC",
+    "home_team_id": "1082",
+    "away_team_id": "59",
+    "has_japanese_player": true,
+    "status": "TIMED"
+  },
+  {
+    "id": "541155",
+    "api_match_id": "541155",
+    "competition_name": "Championship",
+    "competition_id": "2016",
+    "round": "第37節",
+    "kickoff_datetime_jst": "2026-03-12T04:45:00.000Z",
+    "home_team": "West Bromwich Albion FC",
+    "away_team": "Southampton FC",
+    "home_team_id": "74",
+    "away_team_id": "340",
+    "has_japanese_player": true,
+    "status": "TIMED"
+  },
+  {
+    "id": "552068",
+    "api_match_id": "552068",
+    "competition_name": "UEFA Champions League",
+    "competition_id": "2001",
+    "round": "第1節",
+    "kickoff_datetime_jst": "2026-03-12T05:00:00.000Z",
+    "home_team": "Paris Saint-Germain FC",
+    "away_team": "Chelsea FC",
+    "home_team_id": "524",
+    "away_team_id": "61",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "552070",
+    "api_match_id": "552070",
+    "competition_name": "UEFA Champions League",
+    "competition_id": "2001",
+    "round": "第1節",
+    "kickoff_datetime_jst": "2026-03-12T05:00:00.000Z",
+    "home_team": "Real Madrid CF",
+    "away_team": "Manchester City FC",
+    "home_team_id": "86",
+    "away_team_id": "65",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "552074",
+    "api_match_id": "552074",
+    "competition_name": "UEFA Champions League",
+    "competition_id": "2001",
+    "round": "第1節",
+    "kickoff_datetime_jst": "2026-03-12T05:00:00.000Z",
+    "home_team": "FK Bodø/Glimt",
+    "away_team": "Sporting Clube de Portugal",
+    "home_team_id": "5721",
+    "away_team_id": "498",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "541152",
+    "api_match_id": "541152",
+    "competition_name": "Championship",
+    "competition_id": "2016",
+    "round": "第37節",
+    "kickoff_datetime_jst": "2026-03-12T05:00:00.000Z",
+    "home_team": "Coventry City FC",
+    "away_team": "Preston North End FC",
+    "home_team_id": "1076",
+    "away_team_id": "1081",
     "has_japanese_player": true,
     "status": "TIMED"
   }
