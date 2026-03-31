@@ -1222,5 +1222,47 @@
     "away_team_id": "1903",
     "has_japanese_player": false,
     "status": "TIMED"
+  },
+  {
+    "id": "556719",
+    "api_match_id": "556719",
+    "competition_name": "UEFA Champions League",
+    "competition_id": "2001",
+    "round": "第1節",
+    "kickoff_datetime_jst": "2026-04-08T04:00:00.000Z",
+    "home_team": "Real Madrid CF",
+    "away_team": "FC Bayern München",
+    "home_team_id": "86",
+    "away_team_id": "5",
+    "has_japanese_player": true,
+    "status": "TIMED"
+  },
+  {
+    "id": "556721",
+    "api_match_id": "556721",
+    "competition_name": "UEFA Champions League",
+    "competition_id": "2001",
+    "round": "第1節",
+    "kickoff_datetime_jst": "2026-04-08T04:00:00.000Z",
+    "home_team": "Sporting Clube de Portugal",
+    "away_team": "Arsenal FC",
+    "home_team_id": "498",
+    "away_team_id": "57",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "541203",
+    "api_match_id": "541203",
+    "competition_name": "Championship",
+    "competition_id": "2016",
+    "round": "第41節",
+    "kickoff_datetime_jst": "2026-04-08T04:00:00.000Z",
+    "home_team": "Wrexham AFC",
+    "away_team": "Southampton FC",
+    "home_team_id": "404",
+    "away_team_id": "340",
+    "has_japanese_player": true,
+    "status": "TIMED"
   }
 ]
