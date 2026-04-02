@@ -1,27 +1,5 @@
 [
   {
-    "id": "jleague-80-1775070180000",
-    "api_match_id": "jleague-80-1775070180000",
-    "competition_name": "J.League",
-    "round": "第１１節第１日",
-    "kickoff_datetime_jst": "2026-04-01T19:03:00.000Z",
-    "home_team": "町田",
-    "away_team": "FC東京",
-    "has_japanese_player": true,
-    "status": "FINISHED"
-  },
-  {
-    "id": "jleague-81-1775070180000",
-    "api_match_id": "jleague-81-1775070180000",
-    "competition_name": "J.League",
-    "round": "第１１節第１日",
-    "kickoff_datetime_jst": "2026-04-01T19:03:00.000Z",
-    "home_team": "神戸",
-    "away_team": "清水",
-    "has_japanese_player": true,
-    "status": "FINISHED"
-  },
-  {
     "id": "541184",
     "api_match_id": "541184",
     "competition_name": "Championship",
