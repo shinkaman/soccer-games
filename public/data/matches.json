@@ -1,61 +1,5 @@
 [
   {
-    "id": "556722",
-    "api_match_id": "556722",
-    "competition_name": "UEFA Champions League",
-    "competition_id": "2001",
-    "round": "第2節",
-    "kickoff_datetime_jst": "2026-04-15T04:00:00.000Z",
-    "home_team": "Liverpool FC",
-    "away_team": "Paris Saint-Germain FC",
-    "home_team_id": "64",
-    "away_team_id": "524",
-    "has_japanese_player": true,
-    "status": "FINISHED"
-  },
-  {
-    "id": "556724",
-    "api_match_id": "556724",
-    "competition_name": "UEFA Champions League",
-    "competition_id": "2001",
-    "round": "第2節",
-    "kickoff_datetime_jst": "2026-04-15T04:00:00.000Z",
-    "home_team": "Club Atlético de Madrid",
-    "away_team": "FC Barcelona",
-    "home_team_id": "78",
-    "away_team_id": "81",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
-    "id": "541249",
-    "api_match_id": "541249",
-    "competition_name": "Championship",
-    "competition_id": "2016",
-    "round": "第45節",
-    "kickoff_datetime_jst": "2026-04-15T04:00:00.000Z",
-    "home_team": "Southampton FC",
-    "away_team": "Blackburn Rovers FC",
-    "home_team_id": "340",
-    "away_team_id": "59",
-    "has_japanese_player": true,
-    "status": "FINISHED"
-  },
-  {
-    "id": "541021",
-    "api_match_id": "541021",
-    "competition_name": "Championship",
-    "competition_id": "2016",
-    "round": "第26節",
-    "kickoff_datetime_jst": "2026-04-15T04:00:00.000Z",
-    "home_team": "Portsmouth FC",
-    "away_team": "Ipswich Town FC",
-    "home_team_id": "325",
-    "away_team_id": "349",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
     "id": "556723",
     "api_match_id": "556723",
     "competition_name": "UEFA Champions League",
@@ -67,7 +11,7 @@
     "home_team_id": "5",
     "away_team_id": "86",
     "has_japanese_player": true,
-    "status": "PAUSED"
+    "status": "FINISHED"
   },
   {
     "id": "556725",
@@ -81,7 +25,7 @@
     "home_team_id": "57",
     "away_team_id": "498",
     "has_japanese_player": false,
-    "status": "PAUSED"
+    "status": "FINISHED"
   },
   {
     "id": "537140",
@@ -1341,6 +1285,90 @@
     "away_team": "RC Celta de Vigo",
     "home_team_id": "81",
     "away_team_id": "558",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "537713",
+    "api_match_id": "537713",
+    "competition_name": "Eredivisie",
+    "competition_id": "2003",
+    "round": "第31節",
+    "kickoff_datetime_jst": "2026-04-24T01:45:00.000Z",
+    "home_team": "Go Ahead Eagles",
+    "away_team": "AZ",
+    "home_team_id": "718",
+    "away_team_id": "682",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "544533",
+    "api_match_id": "544533",
+    "competition_name": "La Liga",
+    "competition_id": "2014",
+    "round": "第33節",
+    "kickoff_datetime_jst": "2026-04-24T02:00:00.000Z",
+    "home_team": "Levante UD",
+    "away_team": "Sevilla FC",
+    "home_team_id": "88",
+    "away_team_id": "559",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "544539",
+    "api_match_id": "544539",
+    "competition_name": "La Liga",
+    "competition_id": "2014",
+    "round": "第33節",
+    "kickoff_datetime_jst": "2026-04-24T03:00:00.000Z",
+    "home_team": "Rayo Vallecano de Madrid",
+    "away_team": "RCD Espanyol de Barcelona",
+    "home_team_id": "87",
+    "away_team_id": "80",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "537716",
+    "api_match_id": "537716",
+    "competition_name": "Eredivisie",
+    "competition_id": "2003",
+    "round": "第31節",
+    "kickoff_datetime_jst": "2026-04-24T04:00:00.000Z",
+    "home_team": "PSV",
+    "away_team": "PEC Zwolle",
+    "home_team_id": "674",
+    "away_team_id": "684",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "545930",
+    "api_match_id": "545930",
+    "competition_name": "Primeira Liga",
+    "competition_id": "2017",
+    "round": "第26節",
+    "kickoff_datetime_jst": "2026-04-24T04:15:00.000Z",
+    "home_team": "Casa Pia AC",
+    "away_team": "Sporting Clube de Braga",
+    "home_team_id": "6618",
+    "away_team_id": "5613",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "544535",
+    "api_match_id": "544535",
+    "competition_name": "La Liga",
+    "competition_id": "2014",
+    "round": "第33節",
+    "kickoff_datetime_jst": "2026-04-24T04:30:00.000Z",
+    "home_team": "Real Oviedo",
+    "away_team": "Villarreal CF",
+    "home_team_id": "1048",
+    "away_team_id": "94",
     "has_japanese_player": false,
     "status": "TIMED"
   }
