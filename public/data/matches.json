@@ -1,83 +1,5 @@
 [
   {
-    "id": "544563",
-    "api_match_id": "544563",
-    "competition_name": "La Liga",
-    "competition_id": "2014",
-    "round": "第36節",
-    "kickoff_datetime_jst": "2026-05-13T02:00:00.000Z",
-    "home_team": "RC Celta de Vigo",
-    "away_team": "Levante UD",
-    "home_team_id": "558",
-    "away_team_id": "88",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
-    "id": "544562",
-    "api_match_id": "544562",
-    "competition_name": "La Liga",
-    "competition_id": "2014",
-    "round": "第36節",
-    "kickoff_datetime_jst": "2026-05-13T03:00:00.000Z",
-    "home_team": "Real Betis Balompié",
-    "away_team": "Elche CF",
-    "home_team_id": "90",
-    "away_team_id": "285",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
-    "id": "557838",
-    "api_match_id": "557838",
-    "competition_name": "Championship",
-    "competition_id": "2016",
-    "round": null,
-    "kickoff_datetime_jst": "2026-05-13T04:00:00.000Z",
-    "home_team": "Southampton FC",
-    "away_team": "Middlesbrough FC",
-    "home_team_id": "340",
-    "away_team_id": "343",
-    "has_japanese_player": true,
-    "status": "PAUSED"
-  },
-  {
-    "id": "544567",
-    "api_match_id": "544567",
-    "competition_name": "La Liga",
-    "competition_id": "2014",
-    "round": "第36節",
-    "kickoff_datetime_jst": "2026-05-13T04:30:00.000Z",
-    "home_team": "CA Osasuna",
-    "away_team": "Club Atlético de Madrid",
-    "home_team_id": "79",
-    "away_team_id": "78",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
-    "id": "jleague-159-1778698980000",
-    "api_match_id": "jleague-159-1778698980000",
-    "competition_name": "J.League",
-    "round": "第１２節第３日",
-    "kickoff_datetime_jst": "2026-05-13T19:03:00.000Z",
-    "home_team": "町田",
-    "away_team": "東京Ｖ",
-    "has_japanese_player": true,
-    "status": "FINISHED"
-  },
-  {
-    "id": "jleague-160-1778698980000",
-    "api_match_id": "jleague-160-1778698980000",
-    "competition_name": "J.League",
-    "round": "第１２節第２日",
-    "kickoff_datetime_jst": "2026-05-13T19:03:00.000Z",
-    "home_team": "神戸",
-    "away_team": "京都",
-    "has_japanese_player": true,
-    "status": "FINISHED"
-  },
-  {
     "id": "542665",
     "api_match_id": "542665",
     "competition_name": "Ligue 1",
@@ -131,7 +53,7 @@
     "home_team_id": "65",
     "away_team_id": "354",
     "has_japanese_player": true,
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "542664",
@@ -145,7 +67,7 @@
     "home_team_id": "546",
     "away_team_id": "524",
     "has_japanese_player": false,
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "544561",
@@ -159,7 +81,7 @@
     "home_team_id": "263",
     "away_team_id": "81",
     "has_japanese_player": false,
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "544564",
@@ -173,7 +95,7 @@
     "home_team_id": "82",
     "away_team_id": "89",
     "has_japanese_player": true,
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "544568",
@@ -187,7 +109,7 @@
     "home_team_id": "95",
     "away_team_id": "87",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "544565",
@@ -201,7 +123,7 @@
     "home_team_id": "298",
     "away_team_id": "92",
     "has_japanese_player": true,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "544570",
@@ -215,7 +137,7 @@
     "home_team_id": "86",
     "away_team_id": "1048",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "PAUSED"
   },
   {
     "id": "538146",
