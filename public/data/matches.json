@@ -1,33 +1,5 @@
 [
   {
-    "id": "538145",
-    "api_match_id": "538145",
-    "competition_name": "Premier League",
-    "competition_id": "2021",
-    "round": "第37節",
-    "kickoff_datetime_jst": "2026-05-20T03:30:00.000Z",
-    "home_team": "AFC Bournemouth",
-    "away_team": "Manchester City FC",
-    "home_team_id": "1044",
-    "away_team_id": "65",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
-    "id": "538149",
-    "api_match_id": "538149",
-    "competition_name": "Premier League",
-    "competition_id": "2021",
-    "round": "第37節",
-    "kickoff_datetime_jst": "2026-05-20T04:15:00.000Z",
-    "home_team": "Chelsea FC",
-    "away_team": "Tottenham Hotspur FC",
-    "home_team_id": "61",
-    "away_team_id": "73",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
     "id": "jleague-170-1779478200000",
     "api_match_id": "jleague-170-1779478200000",
     "competition_name": "J.League",
@@ -51,6 +23,20 @@
     "away_team_id": "102",
     "has_japanese_player": false,
     "status": "TIMED"
+  },
+  {
+    "id": "557983",
+    "api_match_id": "557983",
+    "competition_name": "Championship",
+    "competition_id": "2016",
+    "round": null,
+    "kickoff_datetime_jst": "2026-05-23T10:00:00.000Z",
+    "home_team": "Hull City AFC",
+    "away_team": "Southampton FC",
+    "home_team_id": "322",
+    "away_team_id": "340",
+    "has_japanese_player": true,
+    "status": "SCHEDULED"
   },
   {
     "id": "jleague-173-1779544800000",
