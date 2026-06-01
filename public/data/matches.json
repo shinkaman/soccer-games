@@ -1,41 +1,5 @@
 [
   {
-    "id": "552096",
-    "api_match_id": "552096",
-    "competition_name": "UEFA Champions League",
-    "competition_id": "2001",
-    "round": null,
-    "kickoff_datetime_jst": "2026-05-31T01:00:00.000Z",
-    "home_team": "Paris Saint-Germain FC",
-    "away_team": "Arsenal FC",
-    "home_team_id": "524",
-    "away_team_id": "57",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
-    "id": "jleague-188-1780236180000",
-    "api_match_id": "jleague-188-1780236180000",
-    "competition_name": "J.League",
-    "round": "第１戦第２日",
-    "kickoff_datetime_jst": "2026-05-31T14:03:00.000Z",
-    "home_team": "清水",
-    "away_team": "横浜FM",
-    "has_japanese_player": true,
-    "status": "FINISHED"
-  },
-  {
-    "id": "jleague-189-1780236180000",
-    "api_match_id": "jleague-189-1780236180000",
-    "competition_name": "J.League",
-    "round": "第１戦第２日",
-    "kickoff_datetime_jst": "2026-05-31T14:03:00.000Z",
-    "home_team": "岡山",
-    "away_team": "浦和",
-    "has_japanese_player": true,
-    "status": "FINISHED"
-  },
-  {
     "id": "jleague-190-1780754400000",
     "api_match_id": "jleague-190-1780754400000",
     "competition_name": "J.League",
