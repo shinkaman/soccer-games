@@ -108,5 +108,19 @@
     "away_team": "広島",
     "has_japanese_player": true,
     "status": "FINISHED"
+  },
+  {
+    "id": "537327",
+    "api_match_id": "537327",
+    "competition_name": "World Cup",
+    "competition_id": "2000",
+    "round": "第1節",
+    "kickoff_datetime_jst": "2026-06-12T04:00:00.000Z",
+    "home_team": "Mexico",
+    "away_team": "South Africa",
+    "home_team_id": "769",
+    "away_team_id": "774",
+    "has_japanese_player": false,
+    "status": "TIMED"
   }
 ]
