@@ -122,5 +122,33 @@
     "away_team_id": "774",
     "has_japanese_player": false,
     "status": "TIMED"
+  },
+  {
+    "id": "537328",
+    "api_match_id": "537328",
+    "competition_name": "World Cup",
+    "competition_id": "2000",
+    "round": "第1節",
+    "kickoff_datetime_jst": "2026-06-12T11:00:00.000Z",
+    "home_team": "South Korea",
+    "away_team": "Czechia",
+    "home_team_id": "772",
+    "away_team_id": "798",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "537333",
+    "api_match_id": "537333",
+    "competition_name": "World Cup",
+    "competition_id": "2000",
+    "round": "第1節",
+    "kickoff_datetime_jst": "2026-06-13T04:00:00.000Z",
+    "home_team": "Canada",
+    "away_team": "Bosnia-Herzegovina",
+    "home_team_id": "828",
+    "away_team_id": "1060",
+    "has_japanese_player": false,
+    "status": "TIMED"
   }
 ]
