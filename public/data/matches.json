@@ -208,5 +208,47 @@
     "away_team_id": "758",
     "has_japanese_player": false,
     "status": "TIMED"
+  },
+  {
+    "id": "537364",
+    "api_match_id": "537364",
+    "competition_name": "World Cup",
+    "competition_id": "2000",
+    "round": "第1節",
+    "kickoff_datetime_jst": "2026-06-16T10:00:00.000Z",
+    "home_team": "Iran",
+    "away_team": "New Zealand",
+    "home_team_id": "840",
+    "away_team_id": "783",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "537391",
+    "api_match_id": "537391",
+    "competition_name": "World Cup",
+    "competition_id": "2000",
+    "round": "第1節",
+    "kickoff_datetime_jst": "2026-06-17T04:00:00.000Z",
+    "home_team": "France",
+    "away_team": "Senegal",
+    "home_team_id": "773",
+    "away_team_id": "804",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "537392",
+    "api_match_id": "537392",
+    "competition_name": "World Cup",
+    "competition_id": "2000",
+    "round": "第1節",
+    "kickoff_datetime_jst": "2026-06-17T07:00:00.000Z",
+    "home_team": "Iraq",
+    "away_team": "Norway",
+    "home_team_id": "8062",
+    "away_team_id": "8872",
+    "has_japanese_player": false,
+    "status": "TIMED"
   }
 ]
