@@ -1,33 +1,5 @@
 [
   {
-    "id": "537328",
-    "api_match_id": "537328",
-    "competition_name": "World Cup",
-    "competition_id": "2000",
-    "round": "第1節",
-    "kickoff_datetime_jst": "2026-06-12T11:00:00.000Z",
-    "home_team": "South Korea",
-    "away_team": "Czechia",
-    "home_team_id": "772",
-    "away_team_id": "798",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
-    "id": "537333",
-    "api_match_id": "537333",
-    "competition_name": "World Cup",
-    "competition_id": "2000",
-    "round": "第1節",
-    "kickoff_datetime_jst": "2026-06-13T04:00:00.000Z",
-    "home_team": "Canada",
-    "away_team": "Bosnia-Herzegovina",
-    "home_team_id": "828",
-    "away_team_id": "1060",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
     "id": "537345",
     "api_match_id": "537345",
     "competition_name": "World Cup",
@@ -53,7 +25,7 @@
     "home_team_id": "8030",
     "away_team_id": "788",
     "has_japanese_player": false,
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "537339",
@@ -67,7 +39,7 @@
     "home_team_id": "764",
     "away_team_id": "815",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "537340",
@@ -81,7 +53,7 @@
     "home_team_id": "836",
     "away_team_id": "8873",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "537346",
@@ -95,7 +67,7 @@
     "home_team_id": "779",
     "away_team_id": "803",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "537351",
@@ -109,7 +81,7 @@
     "home_team_id": "759",
     "away_team_id": "9460",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "537357",
@@ -123,7 +95,7 @@
     "home_team_id": "8601",
     "away_team_id": "766",
     "has_japanese_player": true,
-    "status": "TIMED"
+    "status": "IN_PLAY"
   },
   {
     "id": "537352",
@@ -472,6 +444,62 @@
     "away_team": "Curaçao",
     "home_team_id": "791",
     "away_team_id": "9460",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "537360",
+    "api_match_id": "537360",
+    "competition_name": "World Cup",
+    "competition_id": "2000",
+    "round": "第2節",
+    "kickoff_datetime_jst": "2026-06-21T13:00:00.000Z",
+    "home_team": "Tunisia",
+    "away_team": "Japan",
+    "home_team_id": "802",
+    "away_team_id": "766",
+    "has_japanese_player": true,
+    "status": "TIMED"
+  },
+  {
+    "id": "537371",
+    "api_match_id": "537371",
+    "competition_name": "World Cup",
+    "competition_id": "2000",
+    "round": "第2節",
+    "kickoff_datetime_jst": "2026-06-22T01:00:00.000Z",
+    "home_team": "Spain",
+    "away_team": "Saudi Arabia",
+    "home_team_id": "760",
+    "away_team_id": "801",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "537365",
+    "api_match_id": "537365",
+    "competition_name": "World Cup",
+    "competition_id": "2000",
+    "round": "第2節",
+    "kickoff_datetime_jst": "2026-06-22T04:00:00.000Z",
+    "home_team": "Belgium",
+    "away_team": "Iran",
+    "home_team_id": "805",
+    "away_team_id": "840",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "537372",
+    "api_match_id": "537372",
+    "competition_name": "World Cup",
+    "competition_id": "2000",
+    "round": "第2節",
+    "kickoff_datetime_jst": "2026-06-22T07:00:00.000Z",
+    "home_team": "Uruguay",
+    "away_team": "Cape Verde Islands",
+    "home_team_id": "758",
+    "away_team_id": "1930",
     "has_japanese_player": false,
     "status": "TIMED"
   }
