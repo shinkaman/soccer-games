@@ -1,75 +1,5 @@
 [
   {
-    "id": "537354",
-    "api_match_id": "537354",
-    "competition_name": "World Cup",
-    "competition_id": "2000",
-    "round": "第2節",
-    "kickoff_datetime_jst": "2026-06-21T09:00:00.000Z",
-    "home_team": "Ecuador",
-    "away_team": "Curaçao",
-    "home_team_id": "791",
-    "away_team_id": "9460",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
-    "id": "537360",
-    "api_match_id": "537360",
-    "competition_name": "World Cup",
-    "competition_id": "2000",
-    "round": "第2節",
-    "kickoff_datetime_jst": "2026-06-21T13:00:00.000Z",
-    "home_team": "Tunisia",
-    "away_team": "Japan",
-    "home_team_id": "802",
-    "away_team_id": "766",
-    "has_japanese_player": true,
-    "status": "FINISHED"
-  },
-  {
-    "id": "537371",
-    "api_match_id": "537371",
-    "competition_name": "World Cup",
-    "competition_id": "2000",
-    "round": "第2節",
-    "kickoff_datetime_jst": "2026-06-22T01:00:00.000Z",
-    "home_team": "Spain",
-    "away_team": "Saudi Arabia",
-    "home_team_id": "760",
-    "away_team_id": "801",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
-    "id": "537365",
-    "api_match_id": "537365",
-    "competition_name": "World Cup",
-    "competition_id": "2000",
-    "round": "第2節",
-    "kickoff_datetime_jst": "2026-06-22T04:00:00.000Z",
-    "home_team": "Belgium",
-    "away_team": "Iran",
-    "home_team_id": "805",
-    "away_team_id": "840",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
-    "id": "537372",
-    "api_match_id": "537372",
-    "competition_name": "World Cup",
-    "competition_id": "2000",
-    "round": "第2節",
-    "kickoff_datetime_jst": "2026-06-22T07:00:00.000Z",
-    "home_team": "Uruguay",
-    "away_team": "Cape Verde Islands",
-    "home_team_id": "758",
-    "away_team_id": "1930",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
     "id": "537366",
     "api_match_id": "537366",
     "competition_name": "World Cup",
@@ -109,7 +39,7 @@
     "home_team_id": "773",
     "away_team_id": "8062",
     "has_japanese_player": false,
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "537394",
@@ -123,7 +53,7 @@
     "home_team_id": "8872",
     "away_team_id": "804",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "537400",
@@ -137,7 +67,7 @@
     "home_team_id": "8049",
     "away_team_id": "778",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "537405",
@@ -151,7 +81,7 @@
     "home_team_id": "765",
     "away_team_id": "8070",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "537411",
@@ -165,7 +95,7 @@
     "home_team_id": "770",
     "away_team_id": "763",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "PAUSED"
   },
   {
     "id": "537412",
