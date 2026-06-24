@@ -1,47 +1,5 @@
 [
   {
-    "id": "537366",
-    "api_match_id": "537366",
-    "competition_name": "World Cup",
-    "competition_id": "2000",
-    "round": "第2節",
-    "kickoff_datetime_jst": "2026-06-22T10:00:00.000Z",
-    "home_team": "New Zealand",
-    "away_team": "Egypt",
-    "home_team_id": "783",
-    "away_team_id": "825",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
-    "id": "537399",
-    "api_match_id": "537399",
-    "competition_name": "World Cup",
-    "competition_id": "2000",
-    "round": "第2節",
-    "kickoff_datetime_jst": "2026-06-23T02:00:00.000Z",
-    "home_team": "Argentina",
-    "away_team": "Austria",
-    "home_team_id": "762",
-    "away_team_id": "816",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
-    "id": "537393",
-    "api_match_id": "537393",
-    "competition_name": "World Cup",
-    "competition_id": "2000",
-    "round": "第2節",
-    "kickoff_datetime_jst": "2026-06-23T06:00:00.000Z",
-    "home_team": "France",
-    "away_team": "Iraq",
-    "home_team_id": "773",
-    "away_team_id": "8062",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
     "id": "537394",
     "api_match_id": "537394",
     "competition_name": "World Cup",
@@ -95,7 +53,7 @@
     "home_team_id": "770",
     "away_team_id": "763",
     "has_japanese_player": false,
-    "status": "PAUSED"
+    "status": "FINISHED"
   },
   {
     "id": "537412",
@@ -109,7 +67,7 @@
     "home_team_id": "1836",
     "away_team_id": "799",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "537406",
@@ -123,7 +81,7 @@
     "home_team_id": "818",
     "away_team_id": "1934",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "537337",
@@ -137,7 +95,7 @@
     "home_team_id": "788",
     "away_team_id": "828",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "IN_PLAY"
   },
   {
     "id": "537338",
@@ -151,7 +109,7 @@
     "home_team_id": "1060",
     "away_team_id": "8030",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "IN_PLAY"
   },
   {
     "id": "537344",
