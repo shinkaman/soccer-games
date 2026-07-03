@@ -1,47 +1,5 @@
 [
   {
-    "id": "537425",
-    "api_match_id": "537425",
-    "competition_name": "World Cup",
-    "competition_id": "2000",
-    "round": null,
-    "kickoff_datetime_jst": "2026-07-01T11:00:00.000Z",
-    "home_team": "Mexico",
-    "away_team": "Ecuador",
-    "home_team_id": "769",
-    "away_team_id": "791",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
-    "id": "537426",
-    "api_match_id": "537426",
-    "competition_name": "World Cup",
-    "competition_id": "2000",
-    "round": null,
-    "kickoff_datetime_jst": "2026-07-02T01:00:00.000Z",
-    "home_team": "England",
-    "away_team": "Congo DR",
-    "home_team_id": "770",
-    "away_team_id": "1934",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
-    "id": "537422",
-    "api_match_id": "537422",
-    "competition_name": "World Cup",
-    "competition_id": "2000",
-    "round": null,
-    "kickoff_datetime_jst": "2026-07-02T05:00:00.000Z",
-    "home_team": "Belgium",
-    "away_team": "Senegal",
-    "home_team_id": "805",
-    "away_team_id": "804",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
     "id": "537421",
     "api_match_id": "537421",
     "competition_name": "World Cup",
@@ -67,7 +25,7 @@
     "home_team_id": "760",
     "away_team_id": "816",
     "has_japanese_player": false,
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "537419",
@@ -81,7 +39,7 @@
     "home_team_id": "765",
     "away_team_id": "799",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "537429",
@@ -95,7 +53,7 @@
     "home_team_id": "788",
     "away_team_id": "778",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "537428",
@@ -109,7 +67,7 @@
     "home_team_id": "779",
     "away_team_id": "825",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "IN_PLAY"
   },
   {
     "id": "537427",
