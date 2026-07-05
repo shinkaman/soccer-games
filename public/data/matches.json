@@ -1,47 +1,5 @@
 [
   {
-    "id": "537429",
-    "api_match_id": "537429",
-    "competition_name": "World Cup",
-    "competition_id": "2000",
-    "round": null,
-    "kickoff_datetime_jst": "2026-07-03T12:00:00.000Z",
-    "home_team": "Switzerland",
-    "away_team": "Algeria",
-    "home_team_id": "788",
-    "away_team_id": "778",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
-    "id": "537428",
-    "api_match_id": "537428",
-    "competition_name": "World Cup",
-    "competition_id": "2000",
-    "round": null,
-    "kickoff_datetime_jst": "2026-07-04T03:00:00.000Z",
-    "home_team": "Australia",
-    "away_team": "Egypt",
-    "home_team_id": "779",
-    "away_team_id": "825",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
-    "id": "537427",
-    "api_match_id": "537427",
-    "competition_name": "World Cup",
-    "competition_id": "2000",
-    "round": null,
-    "kickoff_datetime_jst": "2026-07-04T07:00:00.000Z",
-    "home_team": "Argentina",
-    "away_team": "Cape Verde Islands",
-    "home_team_id": "762",
-    "away_team_id": "1930",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
     "id": "537430",
     "api_match_id": "537430",
     "competition_name": "World Cup",
@@ -81,7 +39,7 @@
     "home_team_id": "761",
     "away_team_id": "773",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "537377",
@@ -95,7 +53,7 @@
     "home_team_id": "764",
     "away_team_id": "8872",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "IN_PLAY"
   },
   {
     "id": "537378",
@@ -164,6 +122,20 @@
     "away_team": "Colombia",
     "home_team_id": "788",
     "away_team_id": "818",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "537383",
+    "api_match_id": "537383",
+    "competition_name": "World Cup",
+    "competition_id": "2000",
+    "round": null,
+    "kickoff_datetime_jst": "2026-07-10T05:00:00.000Z",
+    "home_team": "France",
+    "away_team": "Morocco",
+    "home_team_id": "773",
+    "away_team_id": "815",
     "has_japanese_player": false,
     "status": "TIMED"
   }
