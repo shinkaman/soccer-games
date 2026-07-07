@@ -1,19 +1,5 @@
 [
   {
-    "id": "537377",
-    "api_match_id": "537377",
-    "competition_name": "World Cup",
-    "competition_id": "2000",
-    "round": null,
-    "kickoff_datetime_jst": "2026-07-06T05:00:00.000Z",
-    "home_team": "Brazil",
-    "away_team": "Norway",
-    "home_team_id": "764",
-    "away_team_id": "8872",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
     "id": "537378",
     "api_match_id": "537378",
     "competition_name": "World Cup",
@@ -39,7 +25,7 @@
     "home_team_id": "765",
     "away_team_id": "760",
     "has_japanese_player": false,
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "537380",
@@ -53,7 +39,7 @@
     "home_team_id": "771",
     "away_team_id": "805",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "537381",
@@ -67,7 +53,7 @@
     "home_team_id": "762",
     "away_team_id": "825",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "537382",
@@ -81,7 +67,7 @@
     "home_team_id": "788",
     "away_team_id": "818",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "IN_PLAY"
   },
   {
     "id": "537383",
@@ -94,6 +80,20 @@
     "away_team": "Morocco",
     "home_team_id": "773",
     "away_team_id": "815",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "537384",
+    "api_match_id": "537384",
+    "competition_name": "World Cup",
+    "competition_id": "2000",
+    "round": null,
+    "kickoff_datetime_jst": "2026-07-11T04:00:00.000Z",
+    "home_team": "Spain",
+    "away_team": "Belgium",
+    "home_team_id": "760",
+    "away_team_id": "805",
     "has_japanese_player": false,
     "status": "TIMED"
   },
