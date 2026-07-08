@@ -1,33 +1,5 @@
 [
   {
-    "id": "537378",
-    "api_match_id": "537378",
-    "competition_name": "World Cup",
-    "competition_id": "2000",
-    "round": null,
-    "kickoff_datetime_jst": "2026-07-06T10:00:00.000Z",
-    "home_team": "Mexico",
-    "away_team": "England",
-    "home_team_id": "769",
-    "away_team_id": "770",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
-    "id": "537379",
-    "api_match_id": "537379",
-    "competition_name": "World Cup",
-    "competition_id": "2000",
-    "round": null,
-    "kickoff_datetime_jst": "2026-07-07T04:00:00.000Z",
-    "home_team": "Portugal",
-    "away_team": "Spain",
-    "home_team_id": "765",
-    "away_team_id": "760",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
     "id": "537380",
     "api_match_id": "537380",
     "competition_name": "World Cup",
@@ -67,7 +39,7 @@
     "home_team_id": "788",
     "away_team_id": "818",
     "has_japanese_player": false,
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "537383",
@@ -108,6 +80,20 @@
     "away_team": "England",
     "home_team_id": "8872",
     "away_team_id": "770",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "537386",
+    "api_match_id": "537386",
+    "competition_name": "World Cup",
+    "competition_id": "2000",
+    "round": null,
+    "kickoff_datetime_jst": "2026-07-12T10:00:00.000Z",
+    "home_team": "Argentina",
+    "away_team": "Switzerland",
+    "home_team_id": "762",
+    "away_team_id": "788",
     "has_japanese_player": false,
     "status": "TIMED"
   }
