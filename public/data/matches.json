@@ -1,19 +1,5 @@
 [
   {
-    "id": "537385",
-    "api_match_id": "537385",
-    "competition_name": "World Cup",
-    "competition_id": "2000",
-    "round": null,
-    "kickoff_datetime_jst": "2026-07-12T06:00:00.000Z",
-    "home_team": "Norway",
-    "away_team": "England",
-    "home_team_id": "8872",
-    "away_team_id": "770",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
     "id": "537386",
     "api_match_id": "537386",
     "competition_name": "World Cup",
