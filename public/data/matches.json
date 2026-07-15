@@ -11,7 +11,7 @@
     "home_team_id": "773",
     "away_team_id": "760",
     "has_japanese_player": false,
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "537388",
@@ -25,6 +25,6 @@
     "home_team_id": "770",
     "away_team_id": "762",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "IN_PLAY"
   }
 ]
