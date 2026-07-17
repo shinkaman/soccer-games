@@ -1,19 +1,5 @@
 [
   {
-    "id": "537388",
-    "api_match_id": "537388",
-    "competition_name": "World Cup",
-    "competition_id": "2000",
-    "round": null,
-    "kickoff_datetime_jst": "2026-07-16T04:00:00.000Z",
-    "home_team": "England",
-    "away_team": "Argentina",
-    "home_team_id": "770",
-    "away_team_id": "762",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
     "id": "537389",
     "api_match_id": "537389",
     "competition_name": "World Cup",
