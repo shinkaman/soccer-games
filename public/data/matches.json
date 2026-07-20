@@ -1,19 +1,5 @@
 [
   {
-    "id": "537389",
-    "api_match_id": "537389",
-    "competition_name": "World Cup",
-    "competition_id": "2000",
-    "round": null,
-    "kickoff_datetime_jst": "2026-07-19T06:00:00.000Z",
-    "home_team": "France",
-    "away_team": "England",
-    "home_team_id": "773",
-    "away_team_id": "770",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
     "id": "537390",
     "api_match_id": "537390",
     "competition_name": "World Cup",
@@ -25,6 +11,6 @@
     "home_team_id": "760",
     "away_team_id": "762",
     "has_japanese_player": false,
-    "status": "PAUSED"
+    "status": "FINISHED"
   }
 ]
