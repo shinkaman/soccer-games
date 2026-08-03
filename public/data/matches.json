@@ -14,17 +14,6 @@
     "status": "SCHEDULED"
   },
   {
-    "id": "proleague-0-1785701618561",
-    "api_match_id": "proleague-0-1785701618561",
-    "competition_name": "Jupiler Pro League",
-    "round": null,
-    "kickoff_datetime_jst": "2026-08-08T03:45:00.000Z",
-    "home_team": "Club Brugge",
-    "away_team": "KV Kortrijk",
-    "has_japanese_player": false,
-    "status": "TIMED"
-  },
-  {
     "id": "567264",
     "api_match_id": "567264",
     "competition_name": "Primeira Liga",
@@ -67,17 +56,6 @@
     "status": "SCHEDULED"
   },
   {
-    "id": "proleague-1-1785701618561",
-    "api_match_id": "proleague-1-1785701618561",
-    "competition_name": "Jupiler Pro League",
-    "round": null,
-    "kickoff_datetime_jst": "2026-08-09T01:15:00.000Z",
-    "home_team": "Standard de Liège",
-    "away_team": "Cercle Brugge",
-    "has_japanese_player": false,
-    "status": "TIMED"
-  },
-  {
     "id": "558216",
     "api_match_id": "558216",
     "competition_name": "Eredivisie",
@@ -118,28 +96,6 @@
     "away_team_id": "1920",
     "has_japanese_player": false,
     "status": "SCHEDULED"
-  },
-  {
-    "id": "proleague-2-1785701618561",
-    "api_match_id": "proleague-2-1785701618561",
-    "competition_name": "Jupiler Pro League",
-    "round": null,
-    "kickoff_datetime_jst": "2026-08-09T03:45:00.000Z",
-    "home_team": "KVC Westerlo",
-    "away_team": "Royale Union Saint-Gilloise",
-    "has_japanese_player": true,
-    "status": "TIMED"
-  },
-  {
-    "id": "proleague-3-1785701618561",
-    "api_match_id": "proleague-3-1785701618561",
-    "competition_name": "Jupiler Pro League",
-    "round": null,
-    "kickoff_datetime_jst": "2026-08-09T03:45:00.000Z",
-    "home_team": "STVV",
-    "away_team": "Lommel SK",
-    "has_japanese_player": true,
-    "status": "TIMED"
   },
   {
     "id": "558218",
@@ -278,6 +234,20 @@
     "away_team": "Académico de Viseu FC",
     "home_team_id": "1903",
     "away_team_id": "5527",
+    "has_japanese_player": false,
+    "status": "SCHEDULED"
+  },
+  {
+    "id": "567257",
+    "api_match_id": "567257",
+    "competition_name": "Primeira Liga",
+    "competition_id": "2017",
+    "round": "第1節",
+    "kickoff_datetime_jst": "2026-08-11T04:15:00.000Z",
+    "home_team": "CD Santa Clara",
+    "away_team": "CD Nacional",
+    "home_team_id": "5530",
+    "away_team_id": "5529",
     "has_japanese_player": false,
     "status": "SCHEDULED"
   }
