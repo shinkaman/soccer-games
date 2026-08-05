@@ -14,17 +14,6 @@
     "status": "SCHEDULED"
   },
   {
-    "id": "proleague-0-1785875838587",
-    "api_match_id": "proleague-0-1785875838587",
-    "competition_name": "Jupiler Pro League",
-    "round": null,
-    "kickoff_datetime_jst": "2026-08-08T03:45:00.000Z",
-    "home_team": "Club Brugge",
-    "away_team": "KV Kortrijk",
-    "has_japanese_player": false,
-    "status": "TIMED"
-  },
-  {
     "id": "567264",
     "api_match_id": "567264",
     "competition_name": "Primeira Liga",
@@ -65,17 +54,6 @@
     "away_team_id": "1912",
     "has_japanese_player": true,
     "status": "SCHEDULED"
-  },
-  {
-    "id": "proleague-1-1785875838587",
-    "api_match_id": "proleague-1-1785875838587",
-    "competition_name": "Jupiler Pro League",
-    "round": null,
-    "kickoff_datetime_jst": "2026-08-09T01:15:00.000Z",
-    "home_team": "Standard de Liège",
-    "away_team": "Cercle Brugge",
-    "has_japanese_player": false,
-    "status": "TIMED"
   },
   {
     "id": "558216",
@@ -120,28 +98,6 @@
     "status": "SCHEDULED"
   },
   {
-    "id": "proleague-2-1785875838587",
-    "api_match_id": "proleague-2-1785875838587",
-    "competition_name": "Jupiler Pro League",
-    "round": null,
-    "kickoff_datetime_jst": "2026-08-09T03:45:00.000Z",
-    "home_team": "KVC Westerlo",
-    "away_team": "Royale Union Saint-Gilloise",
-    "has_japanese_player": true,
-    "status": "TIMED"
-  },
-  {
-    "id": "proleague-3-1785875838587",
-    "api_match_id": "proleague-3-1785875838587",
-    "competition_name": "Jupiler Pro League",
-    "round": null,
-    "kickoff_datetime_jst": "2026-08-09T03:45:00.000Z",
-    "home_team": "STVV",
-    "away_team": "Lommel SK",
-    "has_japanese_player": true,
-    "status": "TIMED"
-  },
-  {
     "id": "558218",
     "api_match_id": "558218",
     "competition_name": "Eredivisie",
@@ -184,17 +140,6 @@
     "status": "SCHEDULED"
   },
   {
-    "id": "proleague-4-1785875838587",
-    "api_match_id": "proleague-4-1785875838587",
-    "competition_name": "Jupiler Pro League",
-    "round": null,
-    "kickoff_datetime_jst": "2026-08-09T20:30:00.000Z",
-    "home_team": "KAA Gent",
-    "away_team": "KV Mechelen",
-    "has_japanese_player": true,
-    "status": "TIMED"
-  },
-  {
     "id": "558220",
     "api_match_id": "558220",
     "competition_name": "Eredivisie",
@@ -223,28 +168,6 @@
     "status": "SCHEDULED"
   },
   {
-    "id": "proleague-5-1785875838588",
-    "api_match_id": "proleague-5-1785875838588",
-    "competition_name": "Jupiler Pro League",
-    "round": null,
-    "kickoff_datetime_jst": "2026-08-09T23:00:00.000Z",
-    "home_team": "SV Zulte Waregem",
-    "away_team": "KRC Genk",
-    "has_japanese_player": false,
-    "status": "TIMED"
-  },
-  {
-    "id": "proleague-6-1785875838588",
-    "api_match_id": "proleague-6-1785875838588",
-    "competition_name": "Jupiler Pro League",
-    "round": null,
-    "kickoff_datetime_jst": "2026-08-09T23:00:00.000Z",
-    "home_team": "Sporting Charleroi",
-    "away_team": "OH Leuven",
-    "has_japanese_player": false,
-    "status": "TIMED"
-  },
-  {
     "id": "558222",
     "api_match_id": "558222",
     "competition_name": "Eredivisie",
@@ -259,17 +182,6 @@
     "status": "SCHEDULED"
   },
   {
-    "id": "proleague-7-1785875838588",
-    "api_match_id": "proleague-7-1785875838588",
-    "competition_name": "Jupiler Pro League",
-    "round": null,
-    "kickoff_datetime_jst": "2026-08-10T01:30:00.000Z",
-    "home_team": "RSC Anderlecht",
-    "away_team": "RAAL La Louvière",
-    "has_japanese_player": false,
-    "status": "TIMED"
-  },
-  {
     "id": "567265",
     "api_match_id": "567265",
     "competition_name": "Primeira Liga",
@@ -282,17 +194,6 @@
     "away_team_id": "7822",
     "has_japanese_player": false,
     "status": "SCHEDULED"
-  },
-  {
-    "id": "proleague-8-1785875838588",
-    "api_match_id": "proleague-8-1785875838588",
-    "competition_name": "Jupiler Pro League",
-    "round": null,
-    "kickoff_datetime_jst": "2026-08-10T02:15:00.000Z",
-    "home_team": "Royal Antwerp FC",
-    "away_team": "SK Beveren",
-    "has_japanese_player": true,
-    "status": "TIMED"
   },
   {
     "id": "567259",
