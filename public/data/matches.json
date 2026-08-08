@@ -50,8 +50,8 @@
     "status": "FINISHED"
   },
   {
-    "id": "proleague-0-1786178838855",
-    "api_match_id": "proleague-0-1786178838855",
+    "id": "proleague-0-1786183712584",
+    "api_match_id": "proleague-0-1786183712584",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-08-08T03:45:00.000Z",
@@ -155,8 +155,8 @@
     "status": "SCHEDULED"
   },
   {
-    "id": "proleague-1-1786178838856",
-    "api_match_id": "proleague-1-1786178838856",
+    "id": "proleague-1-1786183712585",
+    "api_match_id": "proleague-1-1786183712585",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-08-09T01:15:00.000Z",
@@ -208,8 +208,8 @@
     "status": "SCHEDULED"
   },
   {
-    "id": "proleague-2-1786178838856",
-    "api_match_id": "proleague-2-1786178838856",
+    "id": "proleague-2-1786183712585",
+    "api_match_id": "proleague-2-1786183712585",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-08-09T03:45:00.000Z",
@@ -219,8 +219,8 @@
     "status": "TIMED"
   },
   {
-    "id": "proleague-3-1786178838856",
-    "api_match_id": "proleague-3-1786178838856",
+    "id": "proleague-3-1786183712585",
+    "api_match_id": "proleague-3-1786183712585",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-08-09T03:45:00.000Z",
@@ -294,8 +294,8 @@
     "status": "SCHEDULED"
   },
   {
-    "id": "proleague-4-1786178838856",
-    "api_match_id": "proleague-4-1786178838856",
+    "id": "proleague-4-1786183712585",
+    "api_match_id": "proleague-4-1786183712585",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-08-09T20:30:00.000Z",
@@ -333,8 +333,8 @@
     "status": "SCHEDULED"
   },
   {
-    "id": "proleague-5-1786178838856",
-    "api_match_id": "proleague-5-1786178838856",
+    "id": "proleague-5-1786183712585",
+    "api_match_id": "proleague-5-1786183712585",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-08-09T23:00:00.000Z",
@@ -344,8 +344,8 @@
     "status": "TIMED"
   },
   {
-    "id": "proleague-6-1786178838856",
-    "api_match_id": "proleague-6-1786178838856",
+    "id": "proleague-6-1786183712585",
+    "api_match_id": "proleague-6-1786183712585",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-08-09T23:00:00.000Z",
@@ -369,8 +369,8 @@
     "status": "SCHEDULED"
   },
   {
-    "id": "proleague-7-1786178838856",
-    "api_match_id": "proleague-7-1786178838856",
+    "id": "proleague-7-1786183712585",
+    "api_match_id": "proleague-7-1786183712585",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-08-10T01:30:00.000Z",
@@ -394,8 +394,8 @@
     "status": "SCHEDULED"
   },
   {
-    "id": "proleague-8-1786178838856",
-    "api_match_id": "proleague-8-1786178838856",
+    "id": "proleague-8-1786183712585",
+    "api_match_id": "proleague-8-1786183712585",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-08-10T02:15:00.000Z",
