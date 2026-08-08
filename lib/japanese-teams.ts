@@ -5,10 +5,11 @@
 export const JAPANESE_TEAMS: Record<string, readonly string[]> = {
   "UEFA Champions League": [
     "Bayern",
-    "Liverpool"
+    "Liverpool",
+    "Frankfurt",
+    "Dortmund"
   ],
   "Primeira Liga": [
-    "Sporting CP",
     "Arouca"
   ],
   "Premier League": [
@@ -16,7 +17,10 @@ export const JAPANESE_TEAMS: Record<string, readonly string[]> = {
     "Liverpool",
     "Leeds United",
     "Crystal Palace",
-    "Brighton Hove"
+    "Brighton Hove",
+    "Ipswich Town",
+    "Hull City",
+    "Coventry City"
   ],
   "Eredivisie": [
     "Feyenoord",
@@ -28,24 +32,24 @@ export const JAPANESE_TEAMS: Record<string, readonly string[]> = {
     "Bayern",
     "HSV",
     "Stuttgart",
-    "Wolfsburg",
     "Bremen",
     "Mainz",
     "Freiburg",
     "M'gladbach",
     "Frankfurt",
-    "St. Pauli"
+    "Schalke",
+    "Dortmund"
   ],
   "Ligue 1": [
     "AS Monaco",
-    "Stade de Reims"
+    "Le Havre"
   ],
   "Serie A": [
     "Parma"
   ],
   "La Liga": [
     "Real Sociedad",
-    "Mallorca"
+    "Valencia"
   ],
   "Championship": [
     "Blackburn",
@@ -53,15 +57,16 @@ export const JAPANESE_TEAMS: Record<string, readonly string[]> = {
     "Stoke",
     "Birmingham",
     "Southampton",
-    "Bristol City",
-    "Coventry City"
+    "Bristol City"
   ],
   "Jupiler Pro League": [
     "KAA Gent",
-    "Union St-Gilloise",
+    "Union Saint-Gilloise",
     "Royal Antwerp FC",
     "STVV",
-    "KVC Westerlo"
+    "KVC Westerlo",
+    "OH Leuven",
+    "KV Kortrijk"
   ],
   "World Cup": [
     "Japan"

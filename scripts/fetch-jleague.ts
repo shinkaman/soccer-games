@@ -4,7 +4,8 @@ import * as cheerio from 'cheerio'
 import { format, subDays, addDays } from 'date-fns'
 import { Match } from '../lib/types'
 
-const JLEAGUE_URL = 'https://data.j-league.or.jp/SFMS01/search?competition_years=20261&competition_frame_ids=35&competition_ids=707&competition_ids=708&competition_ids=709&tv_relay_station_name='
+// 2026/27シーズン（Ｊ１リーグ）: competition_years=2026, competition_frame_ids=1, competition_ids=725
+const JLEAGUE_URL = 'https://data.j-league.or.jp/SFMS01/search?competition_years=2026&competition_frame_ids=1&competition_ids=725&tv_relay_station_name='
 const COMPETITION_NAME = 'J.League'
 
 // チーム名の正規化（全角/半角、スペースの統一）
