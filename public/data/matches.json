@@ -1,47 +1,5 @@
 [
   {
-    "id": "564635",
-    "api_match_id": "564635",
-    "competition_name": "La Liga",
-    "competition_id": "2014",
-    "round": "第1節",
-    "kickoff_datetime_jst": "2026-08-18T04:00:00.000Z",
-    "home_team": "RC Deportivo La Coruña",
-    "away_team": "Elche CF",
-    "home_team_id": "560",
-    "away_team_id": "285",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
-    "id": "561772",
-    "api_match_id": "561772",
-    "competition_name": "Championship",
-    "competition_id": "2016",
-    "round": "第1節",
-    "kickoff_datetime_jst": "2026-08-18T04:00:00.000Z",
-    "home_team": "Cardiff City FC",
-    "away_team": "Wrexham AFC",
-    "home_team_id": "715",
-    "away_team_id": "404",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
-    "id": "567267",
-    "api_match_id": "567267",
-    "competition_name": "Primeira Liga",
-    "competition_id": "2017",
-    "round": "第2節",
-    "kickoff_datetime_jst": "2026-08-18T04:15:00.000Z",
-    "home_team": "Casa Pia AC",
-    "away_team": "Sport Lisboa e Benfica",
-    "home_team_id": "6618",
-    "away_team_id": "1903",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
     "id": "564628",
     "api_match_id": "564628",
     "competition_name": "La Liga",
@@ -53,7 +11,7 @@
     "home_team_id": "78",
     "away_team_id": "84",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "LIVE"
   },
   {
     "id": "564638",
@@ -106,8 +64,8 @@
     "status": "TIMED"
   },
   {
-    "id": "proleague-0-1787081526780",
-    "api_match_id": "proleague-0-1787081526780",
+    "id": "proleague-0-1787167857408",
+    "api_match_id": "proleague-0-1787167857408",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-08-22T03:45:00.000Z",
@@ -446,8 +404,8 @@
     "status": "TIMED"
   },
   {
-    "id": "proleague-1-1787081526780",
-    "api_match_id": "proleague-1-1787081526780",
+    "id": "proleague-1-1787167857408",
+    "api_match_id": "proleague-1-1787167857408",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-08-22T23:00:00.000Z",
@@ -513,8 +471,8 @@
     "status": "TIMED"
   },
   {
-    "id": "proleague-2-1787081526780",
-    "api_match_id": "proleague-2-1787081526780",
+    "id": "proleague-2-1787167857408",
+    "api_match_id": "proleague-2-1787167857408",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-08-23T01:15:00.000Z",
@@ -692,8 +650,8 @@
     "status": "TIMED"
   },
   {
-    "id": "proleague-3-1787081526780",
-    "api_match_id": "proleague-3-1787081526780",
+    "id": "proleague-3-1787167857408",
+    "api_match_id": "proleague-3-1787167857408",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-08-23T03:45:00.000Z",
@@ -840,8 +798,8 @@
     "status": "TIMED"
   },
   {
-    "id": "proleague-4-1787081526780",
-    "api_match_id": "proleague-4-1787081526780",
+    "id": "proleague-4-1787167857408",
+    "api_match_id": "proleague-4-1787167857408",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-08-23T23:00:00.000Z",
@@ -949,8 +907,8 @@
     "status": "TIMED"
   },
   {
-    "id": "proleague-5-1787081526780",
-    "api_match_id": "proleague-5-1787081526780",
+    "id": "proleague-5-1787167857408",
+    "api_match_id": "proleague-5-1787167857408",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-08-24T01:30:00.000Z",
@@ -1152,6 +1110,20 @@
     "away_team": "Real Betis Balompié",
     "home_team_id": "95",
     "away_team_id": "90",
+    "has_japanese_player": true,
+    "status": "TIMED"
+  },
+  {
+    "id": "564631",
+    "api_match_id": "564631",
+    "competition_name": "La Liga",
+    "competition_id": "2014",
+    "round": "第1節",
+    "kickoff_datetime_jst": "2026-08-27T04:00:00.000Z",
+    "home_team": "Real Madrid CF",
+    "away_team": "Real Sociedad de Fútbol",
+    "home_team_id": "86",
+    "away_team_id": "92",
     "has_japanese_player": true,
     "status": "TIMED"
   }
