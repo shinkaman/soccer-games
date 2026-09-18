@@ -1,61 +1,5 @@
 [
   {
-    "id": "564685",
-    "api_match_id": "564685",
-    "competition_name": "La Liga",
-    "competition_id": "2014",
-    "round": "第6節",
-    "kickoff_datetime_jst": "2026-09-16T09:00:00.000Z",
-    "home_team": "Levante UD",
-    "away_team": "Athletic Club",
-    "home_team_id": "88",
-    "away_team_id": "77",
-    "has_japanese_player": false,
-    "status": "POSTPONED"
-  },
-  {
-    "id": "564679",
-    "api_match_id": "564679",
-    "competition_name": "La Liga",
-    "competition_id": "2014",
-    "round": "第6節",
-    "kickoff_datetime_jst": "2026-09-17T02:00:00.000Z",
-    "home_team": "RC Deportivo La Coruña",
-    "away_team": "Sevilla FC",
-    "home_team_id": "560",
-    "away_team_id": "559",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
-    "id": "564684",
-    "api_match_id": "564684",
-    "competition_name": "La Liga",
-    "competition_id": "2014",
-    "round": "第6節",
-    "kickoff_datetime_jst": "2026-09-17T02:00:00.000Z",
-    "home_team": "Club Atlético de Madrid",
-    "away_team": "CA Osasuna",
-    "home_team_id": "78",
-    "away_team_id": "79",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
-    "id": "564687",
-    "api_match_id": "564687",
-    "competition_name": "La Liga",
-    "competition_id": "2014",
-    "round": "第6節",
-    "kickoff_datetime_jst": "2026-09-17T04:30:00.000Z",
-    "home_team": "FC Barcelona",
-    "away_team": "Real Racing Club de Santander",
-    "home_team_id": "81",
-    "away_team_id": "5335",
-    "has_japanese_player": false,
-    "status": "FINISHED"
-  },
-  {
     "id": "564686",
     "api_match_id": "564686",
     "competition_name": "La Liga",
@@ -95,7 +39,7 @@
     "home_team_id": "677",
     "away_team_id": "684",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "565804",
@@ -109,7 +53,7 @@
     "home_team_id": "5",
     "away_team_id": "28",
     "has_japanese_player": true,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "559682",
@@ -123,7 +67,7 @@
     "home_team_id": "548",
     "away_team_id": "546",
     "has_japanese_player": true,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "558596",
@@ -137,18 +81,18 @@
     "home_team_id": "5911",
     "away_team_id": "471",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
-    "id": "proleague-0-1789682454421",
-    "api_match_id": "proleague-0-1789682454421",
+    "id": "proleague-0-1789767204620",
+    "api_match_id": "proleague-0-1789767204620",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-09-19T03:45:00.000Z",
     "home_team": "KAA Gent",
     "away_team": "Standard de Liège",
     "has_japanese_player": true,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "560591",
@@ -162,7 +106,7 @@
     "home_team_id": "402",
     "away_team_id": "61",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "564692",
@@ -176,7 +120,7 @@
     "home_team_id": "80",
     "away_team_id": "285",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "561845",
@@ -190,7 +134,7 @@
     "home_team_id": "387",
     "away_team_id": "346",
     "has_japanese_player": true,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "jleague-70-1789840800000",
@@ -561,8 +505,8 @@
     "status": "TIMED"
   },
   {
-    "id": "proleague-1-1789682454422",
-    "api_match_id": "proleague-1-1789682454422",
+    "id": "proleague-1-1789767204620",
+    "api_match_id": "proleague-1-1789767204620",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-09-19T23:00:00.000Z",
@@ -656,8 +600,8 @@
     "status": "TIMED"
   },
   {
-    "id": "proleague-2-1789682454422",
-    "api_match_id": "proleague-2-1789682454422",
+    "id": "proleague-2-1789767204620",
+    "api_match_id": "proleague-2-1789767204620",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-09-20T01:15:00.000Z",
@@ -821,8 +765,8 @@
     "status": "TIMED"
   },
   {
-    "id": "proleague-3-1789682454422",
-    "api_match_id": "proleague-3-1789682454422",
+    "id": "proleague-3-1789767204620",
+    "api_match_id": "proleague-3-1789767204620",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-09-20T03:45:00.000Z",
@@ -832,8 +776,8 @@
     "status": "TIMED"
   },
   {
-    "id": "proleague-4-1789682454422",
-    "api_match_id": "proleague-4-1789682454422",
+    "id": "proleague-4-1789767204620",
+    "api_match_id": "proleague-4-1789767204620",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-09-20T03:45:00.000Z",
@@ -949,8 +893,8 @@
     "status": "TIMED"
   },
   {
-    "id": "proleague-5-1789682454422",
-    "api_match_id": "proleague-5-1789682454422",
+    "id": "proleague-5-1789767204620",
+    "api_match_id": "proleague-5-1789767204620",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-09-20T20:30:00.000Z",
@@ -1114,8 +1058,8 @@
     "status": "TIMED"
   },
   {
-    "id": "proleague-6-1789682454422",
-    "api_match_id": "proleague-6-1789682454422",
+    "id": "proleague-6-1789767204620",
+    "api_match_id": "proleague-6-1789767204620",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-09-20T23:00:00.000Z",
@@ -1265,8 +1209,8 @@
     "status": "TIMED"
   },
   {
-    "id": "proleague-7-1789682454422",
-    "api_match_id": "proleague-7-1789682454422",
+    "id": "proleague-7-1789767204620",
+    "api_match_id": "proleague-7-1789767204620",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-09-21T01:30:00.000Z",
@@ -1304,8 +1248,8 @@
     "status": "TIMED"
   },
   {
-    "id": "proleague-8-1789682454422",
-    "api_match_id": "proleague-8-1789682454422",
+    "id": "proleague-8-1789767204620",
+    "api_match_id": "proleague-8-1789767204620",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-09-21T02:15:00.000Z",
