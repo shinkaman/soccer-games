@@ -39,7 +39,7 @@
     "home_team_id": "1076",
     "away_team_id": "67",
     "has_japanese_player": true,
-    "status": "FINISHED"
+    "status": "TIMED"
   },
   {
     "id": "564704",
@@ -81,7 +81,7 @@
     "home_team_id": "546",
     "away_team_id": "498",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "575342",
@@ -95,7 +95,7 @@
     "home_team_id": "10233",
     "away_team_id": "930",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "561869",
@@ -109,7 +109,7 @@
     "home_team_id": "76",
     "away_team_id": "60",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "561870",
@@ -123,7 +123,7 @@
     "home_team_id": "404",
     "away_team_id": "74",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "561871",
@@ -137,7 +137,7 @@
     "home_team_id": "384",
     "away_team_id": "72",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "561872",
@@ -151,7 +151,7 @@
     "home_team_id": "715",
     "away_team_id": "346",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "561873",
@@ -165,7 +165,7 @@
     "home_team_id": "328",
     "away_team_id": "348",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "561874",
@@ -179,7 +179,7 @@
     "home_team_id": "387",
     "away_team_id": "59",
     "has_japanese_player": true,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "575343",
@@ -193,7 +193,7 @@
     "home_team_id": "108",
     "away_team_id": "851",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "575344",
@@ -207,7 +207,7 @@
     "home_team_id": "610",
     "away_team_id": "81",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "575345",
@@ -221,7 +221,7 @@
     "home_team_id": "78",
     "away_team_id": "66",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "575346",
@@ -235,7 +235,7 @@
     "home_team_id": "57",
     "away_team_id": "521",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "575347",
@@ -249,7 +249,7 @@
     "home_team_id": "5720",
     "away_team_id": "5",
     "has_japanese_player": true,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "575348",
@@ -263,7 +263,7 @@
     "home_team_id": "721",
     "away_team_id": "674",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "575349",
@@ -277,7 +277,7 @@
     "home_team_id": "94",
     "away_team_id": "113",
     "has_japanese_player": false,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "561875",
@@ -291,7 +291,7 @@
     "home_team_id": "332",
     "away_team_id": "1081",
     "has_japanese_player": true,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "561876",
@@ -305,7 +305,7 @@
     "home_team_id": "70",
     "away_team_id": "343",
     "has_japanese_player": true,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "575350",
