@@ -7,45 +7,46 @@ export const JAPANESE_TEAMS: Record<string, readonly string[]> = {
     "Bayern",
     "Liverpool",
     "Frankfurt",
-    "Dortmund"
+    "PSV",
+    "Monaco",
+    "Union Saint-Gilloise"
   ],
   "Primeira Liga": [
     "Arouca"
   ],
   "Premier League": [
-    "Arsenal",
-    "Liverpool",
-    "Leeds United",
     "Crystal Palace",
-    "Brighton Hove",
+    "Aston Villa",
     "Ipswich Town",
+    "Coventry City",
     "Hull City",
-    "Coventry City"
+    "Brighton",
+    "Leeds United",
+    "Liverpool"
   ],
   "Eredivisie": [
-    "Feyenoord",
-    "Ajax",
-    "NEC",
-    "Sparta"
+    "AZ",
+    "PSV",
+    "Sparta",
+    "Feyenoord"
   ],
   "Bundesliga": [
-    "Bayern",
-    "HSV",
-    "Stuttgart",
-    "Bremen",
-    "Mainz",
     "Freiburg",
-    "M'gladbach",
+    "Mönchengladbach",
     "Frankfurt",
+    "Mainz",
     "Schalke",
-    "Dortmund"
+    "Bayern",
+    "Hoffenheim"
   ],
   "Ligue 1": [
     "AS Monaco",
-    "Le Havre"
+    "Le Havre",
+    "Lille",
+    "Lyonnais"
   ],
   "Serie A": [
-    "Parma"
+    "Cagliari"
   ],
   "La Liga": [
     "Real Sociedad",
@@ -53,20 +54,22 @@ export const JAPANESE_TEAMS: Record<string, readonly string[]> = {
   ],
   "Championship": [
     "Blackburn",
-    "QPR",
-    "Stoke",
-    "Birmingham",
+    "Queens Park",
     "Southampton",
-    "Bristol City"
+    "Birmingham",
+    "Burnley",
+    "Bristol City",
+    "Bolton"
   ],
   "Jupiler Pro League": [
-    "KAA Gent",
-    "Union Saint-Gilloise",
-    "Royal Antwerp FC",
     "STVV",
     "KVC Westerlo",
+    "Royal Antwerp FC",
+    "KRC Genk",
     "OH Leuven",
-    "KV Kortrijk"
+    "KV Kortrijk",
+    "Sporting Charleroi",
+    "Union Saint-Gilloise"
   ],
   "World Cup": [
     "Japan"

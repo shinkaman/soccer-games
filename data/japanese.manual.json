@@ -1,13 +1,13 @@
 {
-  "UEFA Champions League": ["Bayern", "Liverpool", "Frankfurt", "Dortmund"],
+  "UEFA Champions League": ["Bayern", "Liverpool", "Frankfurt", "PSV", "Monaco", "Union Saint-Gilloise"],
   "Primeira Liga": ["Arouca"],
-  "Premier League": ["Arsenal", "Liverpool", "Leeds United", "Crystal Palace", "Brighton Hove", "Ipswich Town", "Hull City", "Coventry City"],
-  "Eredivisie": ["Feyenoord", "Ajax", "NEC", "Sparta"],
-  "Bundesliga": ["Bayern", "HSV", "Stuttgart", "Bremen", "Mainz", "Freiburg", "M'gladbach", "Frankfurt", "Schalke", "Dortmund"],
-  "Ligue 1": ["AS Monaco", "Le Havre"],
-  "Serie A": ["Parma"],
+  "Premier League": ["Crystal Palace", "Aston Villa", "Ipswich Town", "Coventry City", "Hull City", "Brighton", "Leeds United", "Liverpool"],
+  "Eredivisie": ["AZ", "PSV", "Sparta", "Feyenoord"],
+  "Bundesliga": ["Freiburg", "Mönchengladbach", "Frankfurt", "Mainz", "Schalke", "Bayern", "Hoffenheim"],
+  "Ligue 1": ["AS Monaco", "Le Havre", "Lille", "Lyonnais"],
+  "Serie A": ["Cagliari"],
   "La Liga": ["Real Sociedad", "Valencia"],
-  "Championship": ["Blackburn", "QPR", "Stoke", "Birmingham", "Southampton", "Bristol City"],
-  "Jupiler Pro League": ["KAA Gent", "Union Saint-Gilloise", "Royal Antwerp FC", "STVV", "KVC Westerlo", "OH Leuven", "KV Kortrijk"],
+  "Championship": ["Blackburn", "Queens Park", "Southampton", "Birmingham", "Burnley", "Bristol City", "Bolton"],
+  "Jupiler Pro League": ["STVV", "KVC Westerlo", "Royal Antwerp FC", "KRC Genk", "OH Leuven", "KV Kortrijk", "Sporting Charleroi", "Union Saint-Gilloise"],
   "World Cup": ["Japan"]
 }
