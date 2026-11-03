@@ -35,6 +35,9 @@
 ### 日本リーグ
 
 - 🇯🇵 **J.League** - Jリーグ
+- 🌏 **AFC Champions League Elite / Two** - ACL（日本クラブ出場試合）
+- 🏆 **J.League Cup** - Jリーグカップ（ルヴァンカップ）
+- 👑 **Emperor's Cup** - 天皇杯
 
 ## 🛠 技術スタック
 

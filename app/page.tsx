@@ -306,6 +306,10 @@ const LEAGUE_FLAGS: Record<string, string> = {
   'Championship': '🇬🇧', // イングランド
   'J.League': '🇯🇵', // 日本
   'Jupiler Pro League': '🇧🇪', // ベルギー
+  'ACL Elite': '🌏', // AFCチャンピオンズリーグ
+  'ACL Two': '🌏',
+  'J.League Cup': '🏆', // Jリーグカップ
+  "Emperor's Cup": '👑', // 天皇杯
 }
 
 // リーグごとの背景色
@@ -322,6 +326,10 @@ const LEAGUE_COLORS: Record<string, string> = {
   'Championship': '#f1f8e9', // 薄い黄緑
   'J.League': '#ffe0e0', // 薄い赤（日本のイメージ）
   'Jupiler Pro League': '#fff8e1', // 薄い黄（ベルギー）
+  'ACL Elite': '#e8eaf6', // 薄い藍
+  'ACL Two': '#ede7f6', // 薄い藤色
+  'J.League Cup': '#fbe9e7', // 薄い朱
+  "Emperor's Cup": '#efebe9', // 薄い茶
 }
 
 export default function Home() {

@@ -237,6 +237,24 @@ async function main() {
     console.log('Jupiler Pro League data file not found, skipping...')
   }
 
+  // 日本のカップ戦（ACL・Jリーグカップ・天皇杯）データを読み込んで結合
+  const cupsPath = join(process.cwd(), 'public', 'data', 'matches.japancups.json')
+  if (existsSync(cupsPath)) {
+    try {
+      const cupsData = JSON.parse(readFileSync(cupsPath, 'utf-8')) as Match[]
+      const filteredCups = cupsData.filter(match => {
+        const matchDate = new Date(match.kickoff_datetime_jst)
+        return matchDate >= yesterday && matchDate <= nextWeek
+      })
+      console.log(`Loaded ${filteredCups.length} Japanese cup matches (filtered from ${cupsData.length})`)
+      allMatches.push(...filteredCups)
+    } catch (error) {
+      console.error('Error loading Japanese cup data:', error)
+    }
+  } else {
+    console.log('Japanese cup data file not found, skipping...')
+  }
+
   // 日付でソート
   allMatches.sort((a, b) => 
     new Date(a.kickoff_datetime_jst).getTime() - new Date(b.kickoff_datetime_jst).getTime()
