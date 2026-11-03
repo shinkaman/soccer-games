@@ -1,5 +1,49 @@
 [
   {
+    "id": "aclelite-espn-401912631",
+    "api_match_id": "aclelite-espn-401912631",
+    "competition_name": "ACL Elite",
+    "round": "リーグステージ 西地区",
+    "kickoff_datetime_jst": "2026-11-02T22:45:00.000Z",
+    "home_team": "Pakhtakor",
+    "away_team": "Al Nassr",
+    "has_japanese_player": false,
+    "status": "FINISHED"
+  },
+  {
+    "id": "aclelite-espn-401912630",
+    "api_match_id": "aclelite-espn-401912630",
+    "competition_name": "ACL Elite",
+    "round": "リーグステージ 西地区",
+    "kickoff_datetime_jst": "2026-11-03T01:00:00.000Z",
+    "home_team": "Al Sadd",
+    "away_team": "Al Ahli",
+    "has_japanese_player": false,
+    "status": "FINISHED"
+  },
+  {
+    "id": "aclelite-espn-401912618",
+    "api_match_id": "aclelite-espn-401912618",
+    "competition_name": "ACL Elite",
+    "round": "リーグステージ 西地区",
+    "kickoff_datetime_jst": "2026-11-03T01:00:00.000Z",
+    "home_team": "Al Wasl",
+    "away_team": "Al-Quwa Al-Jawiya",
+    "has_japanese_player": false,
+    "status": "FINISHED"
+  },
+  {
+    "id": "aclelite-espn-401912619",
+    "api_match_id": "aclelite-espn-401912619",
+    "competition_name": "ACL Elite",
+    "round": "リーグステージ 西地区",
+    "kickoff_datetime_jst": "2026-11-03T01:00:00.000Z",
+    "home_team": "Tractor",
+    "away_team": "Neftchi Fergana",
+    "has_japanese_player": false,
+    "status": "FINISHED"
+  },
+  {
     "id": "558541",
     "api_match_id": "558541",
     "competition_name": "Serie A",
@@ -10,6 +54,28 @@
     "away_team": "ACF Fiorentina",
     "home_team_id": "471",
     "away_team_id": "99",
+    "has_japanese_player": false,
+    "status": "FINISHED"
+  },
+  {
+    "id": "aclelite-espn-401912629",
+    "api_match_id": "aclelite-espn-401912629",
+    "competition_name": "ACL Elite",
+    "round": "リーグステージ 西地区",
+    "kickoff_datetime_jst": "2026-11-03T03:15:00.000Z",
+    "home_team": "Al Ittihad",
+    "away_team": "Al Ain",
+    "has_japanese_player": false,
+    "status": "FINISHED"
+  },
+  {
+    "id": "aclelite-espn-401912608",
+    "api_match_id": "aclelite-espn-401912608",
+    "competition_name": "ACL Elite",
+    "round": "リーグステージ 西地区",
+    "kickoff_datetime_jst": "2026-11-03T03:15:00.000Z",
+    "home_team": "Al-Gharafa",
+    "away_team": "Al Qadsiah",
     "has_japanese_player": false,
     "status": "FINISHED"
   },
@@ -98,6 +164,83 @@
     "status": "FINISHED"
   },
   {
+    "id": "aclelite-2026110329",
+    "api_match_id": "aclelite-2026110329",
+    "competition_name": "ACL Elite",
+    "round": "AFCチャンピオンズリーグElite　リーグステージ　ＭＤ4　東地区",
+    "kickoff_datetime_jst": "2026-11-03T16:45:00.000Z",
+    "home_team": "ニューカッスル・ジェッツ",
+    "away_team": "上海海港",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "aclelite-2026110332",
+    "api_match_id": "aclelite-2026110332",
+    "competition_name": "ACL Elite",
+    "round": "AFCチャンピオンズリーグElite　リーグステージ　ＭＤ4　東地区",
+    "kickoff_datetime_jst": "2026-11-03T19:00:00.000Z",
+    "home_team": "柏",
+    "away_team": "大田",
+    "has_japanese_player": true,
+    "status": "TIMED"
+  },
+  {
+    "id": "aclelite-2026110331",
+    "api_match_id": "aclelite-2026110331",
+    "competition_name": "ACL Elite",
+    "round": "AFCチャンピオンズリーグElite　リーグステージ　ＭＤ4　東地区",
+    "kickoff_datetime_jst": "2026-11-03T19:00:00.000Z",
+    "home_team": "神戸",
+    "away_team": "ラーチャブリー",
+    "has_japanese_player": true,
+    "status": "TIMED"
+  },
+  {
+    "id": "aclelite-2026110330",
+    "api_match_id": "aclelite-2026110330",
+    "competition_name": "ACL Elite",
+    "round": "AFCチャンピオンズリーグElite　リーグステージ　ＭＤ4　東地区",
+    "kickoff_datetime_jst": "2026-11-03T19:00:00.000Z",
+    "home_team": "全北",
+    "away_team": "ジョホール",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "aclelite-2026110333",
+    "api_match_id": "aclelite-2026110333",
+    "competition_name": "ACL Elite",
+    "round": "AFCチャンピオンズリーグElite　リーグステージ　ＭＤ4　東地区",
+    "kickoff_datetime_jst": "2026-11-03T21:15:00.000Z",
+    "home_team": "ポートFC",
+    "away_team": "北京FC",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "aclelite-2026110334",
+    "api_match_id": "aclelite-2026110334",
+    "competition_name": "ACL Elite",
+    "round": "AFCチャンピオンズリーグElite　リーグステージ　ＭＤ4　東地区",
+    "kickoff_datetime_jst": "2026-11-03T21:15:00.000Z",
+    "home_team": "コンアン・ハノイ",
+    "away_team": "京都",
+    "has_japanese_player": true,
+    "status": "TIMED"
+  },
+  {
+    "id": "aclelite-espn-401912607",
+    "api_match_id": "aclelite-espn-401912607",
+    "competition_name": "ACL Elite",
+    "round": "リーグステージ 西地区",
+    "kickoff_datetime_jst": "2026-11-04T01:00:00.000Z",
+    "home_team": "Esteghlal FC",
+    "away_team": "Al-Shamal",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
     "id": "575377",
     "api_match_id": "575377",
     "competition_name": "UEFA Champions League",
@@ -122,6 +265,17 @@
     "away_team": "VfB Stuttgart",
     "home_team_id": "610",
     "away_team_id": "10",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "aclelite-espn-401912603",
+    "api_match_id": "aclelite-espn-401912603",
+    "competition_name": "ACL Elite",
+    "round": "リーグステージ 西地区",
+    "kickoff_datetime_jst": "2026-11-04T03:15:00.000Z",
+    "home_team": "Al Hilal",
+    "away_team": "Shabab Al Ahli",
     "has_japanese_player": false,
     "status": "TIMED"
   },
@@ -350,6 +504,50 @@
     "status": "TIMED"
   },
   {
+    "id": "acltwo-2026110409",
+    "api_match_id": "acltwo-2026110409",
+    "competition_name": "ACL Two",
+    "round": "AFCチャンピオンズリーグTwo　グループステージ　ＭＤ4　東地区",
+    "kickoff_datetime_jst": "2026-11-04T16:45:00.000Z",
+    "home_team": "MBV",
+    "away_team": "プルシブ",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "aclelite-2026110401",
+    "api_match_id": "aclelite-2026110401",
+    "competition_name": "ACL Elite",
+    "round": "AFCチャンピオンズリーグElite　リーグステージ　ＭＤ4　東地区",
+    "kickoff_datetime_jst": "2026-11-04T19:00:00.000Z",
+    "home_team": "浦項",
+    "away_team": "G大阪",
+    "has_japanese_player": true,
+    "status": "TIMED"
+  },
+  {
+    "id": "acltwo-2026110410",
+    "api_match_id": "acltwo-2026110410",
+    "competition_name": "ACL Two",
+    "round": "AFCチャンピオンズリーグTwo　グループステージ　ＭＤ4　東地区",
+    "kickoff_datetime_jst": "2026-11-04T19:00:00.000Z",
+    "home_team": "FCソウル",
+    "away_team": "ベトテル",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "aclelite-2026110402",
+    "api_match_id": "aclelite-2026110402",
+    "competition_name": "ACL Elite",
+    "round": "AFCチャンピオンズリーグElite　リーグステージ　ＭＤ4　東地区",
+    "kickoff_datetime_jst": "2026-11-04T21:15:00.000Z",
+    "home_team": "ブリーラム",
+    "away_team": "鹿島",
+    "has_japanese_player": true,
+    "status": "TIMED"
+  },
+  {
     "id": "575386",
     "api_match_id": "575386",
     "competition_name": "UEFA Champions League",
@@ -378,8 +576,8 @@
     "status": "TIMED"
   },
   {
-    "id": "proleague-8-1793669373516",
-    "api_match_id": "proleague-8-1793669373516",
+    "id": "proleague-8-1793674211651",
+    "api_match_id": "proleague-8-1793674211651",
     "competition_name": "Jupiler Pro League",
     "round": null,
     "kickoff_datetime_jst": "2026-11-05T04:30:00.000Z",
@@ -526,6 +724,72 @@
     "home_team_id": "387",
     "away_team_id": "76",
     "has_japanese_player": true,
+    "status": "TIMED"
+  },
+  {
+    "id": "acltwo-2026110503",
+    "api_match_id": "acltwo-2026110503",
+    "competition_name": "ACL Two",
+    "round": "AFCチャンピオンズリーグTwo　グループステージ　ＭＤ4　東地区",
+    "kickoff_datetime_jst": "2026-11-05T19:00:00.000Z",
+    "home_team": "町田",
+    "away_team": "上海申花",
+    "has_japanese_player": true,
+    "status": "TIMED"
+  },
+  {
+    "id": "acltwo-2026110501",
+    "api_match_id": "acltwo-2026110501",
+    "competition_name": "ACL Two",
+    "round": "AFCチャンピオンズリーグTwo　グループステージ　ＭＤ4　東地区",
+    "kickoff_datetime_jst": "2026-11-05T19:00:00.000Z",
+    "home_team": "セーラーズ",
+    "away_team": "アデレード・ユナイテッド",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "acltwo-2026110505",
+    "api_match_id": "acltwo-2026110505",
+    "competition_name": "ACL Two",
+    "round": "AFCチャンピオンズリーグTwo　グループステージ　ＭＤ4　東地区",
+    "kickoff_datetime_jst": "2026-11-05T19:00:00.000Z",
+    "home_team": "傑志",
+    "away_team": "プノンペン・クラウン",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "acltwo-2026110502",
+    "api_match_id": "acltwo-2026110502",
+    "competition_name": "ACL Two",
+    "round": "AFCチャンピオンズリーグTwo　グループステージ　ＭＤ4　東地区",
+    "kickoff_datetime_jst": "2026-11-05T21:15:00.000Z",
+    "home_team": "パトゥムU",
+    "away_team": "大埔FC",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "acltwo-2026110504",
+    "api_match_id": "acltwo-2026110504",
+    "competition_name": "ACL Two",
+    "round": "AFCチャンピオンズリーグTwo　グループステージ　ＭＤ4　東地区",
+    "kickoff_datetime_jst": "2026-11-05T21:15:00.000Z",
+    "home_team": "スヴァイリエン",
+    "away_team": "TAR",
+    "has_japanese_player": false,
+    "status": "TIMED"
+  },
+  {
+    "id": "acltwo-2026110506",
+    "api_match_id": "acltwo-2026110506",
+    "competition_name": "ACL Two",
+    "round": "AFCチャンピオンズリーグTwo　グループステージ　ＭＤ4　東地区",
+    "kickoff_datetime_jst": "2026-11-05T21:15:00.000Z",
+    "home_team": "クチン・シティ",
+    "away_team": "江原",
+    "has_japanese_player": false,
     "status": "TIMED"
   },
   {
