@@ -4,44 +4,44 @@
     "api_match_id": "leaguecup-52-261111",
     "competition_name": "J.League Cup",
     "round": "プライムラウンド 準々決勝　第１戦",
-    "kickoff_datetime_jst": "2026-11-11T19:00:00.000Z",
-    "home_team": "川崎F",
-    "away_team": "柏",
+    "kickoff_datetime_jst": "2026-11-11T19:03:00.000Z",
+    "home_team": "神戸",
+    "away_team": "町田",
     "has_japanese_player": true,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "leaguecup-53-261111",
     "api_match_id": "leaguecup-53-261111",
     "competition_name": "J.League Cup",
     "round": "プライムラウンド 準々決勝　第１戦",
-    "kickoff_datetime_jst": "2026-11-11T19:00:00.000Z",
-    "home_team": "横浜FM",
-    "away_team": "鹿島",
+    "kickoff_datetime_jst": "2026-11-11T19:03:00.000Z",
+    "home_team": "川崎F",
+    "away_team": "柏",
     "has_japanese_player": true,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "leaguecup-54-261111",
     "api_match_id": "leaguecup-54-261111",
     "competition_name": "J.League Cup",
     "round": "プライムラウンド 準々決勝　第１戦",
-    "kickoff_datetime_jst": "2026-11-11T19:00:00.000Z",
-    "home_team": "神戸",
-    "away_team": "町田",
+    "kickoff_datetime_jst": "2026-11-11T19:03:00.000Z",
+    "home_team": "横浜FM",
+    "away_team": "鹿島",
     "has_japanese_player": true,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "leaguecup-55-261111",
     "api_match_id": "leaguecup-55-261111",
     "competition_name": "J.League Cup",
     "round": "プライムラウンド 準々決勝　第１戦",
-    "kickoff_datetime_jst": "2026-11-11T19:30:00.000Z",
+    "kickoff_datetime_jst": "2026-11-11T19:33:00.000Z",
     "home_team": "浦和",
     "away_team": "C大阪",
     "has_japanese_player": true,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "leaguecup-56-261115",
